@@ -1,4 +1,3 @@
-
 import React from "react";
 import Container from "@/components/layout/Container";
 import { items } from "./data.js";
@@ -23,13 +22,11 @@ const Faqs = () => {
             <h2 className="font-bold text-5xl text-white mt-5 tracking-tight">
               FAQs
             </h2>
-            <p className="text-white text-xl mt-3">
-              Frequenty asked questions
-            </p>
+            <p className="text-white text-xl mt-3">Frequenty asked questions</p>
           </div>
           <div className="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8">
             {data.map((item) => (
-              <div className="py-5">
+              <div key={item.id} className="py-5">
                 <details className="group">
                   <summary className="flex justify-between items-center text-white font-medium cursor-pointer list-none">
                     <span> {item.quest}</span>
@@ -63,4 +60,3 @@ const Faqs = () => {
 };
 
 export default Faqs;
-
