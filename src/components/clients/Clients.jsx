@@ -31,7 +31,7 @@ const Clients = () => {
           <div>
             <FadeIn>
               {" "}
-              <h2 className="text-center text-white text-6xl mb-9 font-semibold  tracking-wider">
+              <h2 className="text-center text-white text-4xl mb-9 font-semibold  tracking-wider">
                 Clients
               </h2>
             </FadeIn>

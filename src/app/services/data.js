@@ -28,7 +28,7 @@ export const items = {
       slug: "social",
       desc: "Grow Your Business by Social Media Engagement",
       label: "Connect, Engage, Succeed",
-      label1: "Igniting Your Social Media Presence",
+      label1: " Social Media Presence",
       label2: "Art of Social Media Solutions",
       image:
         "https://img.freepik.com/free-vector/hand-drawn-illustration-people-with-smartphone-marketing_52683-66659.jpg?size=626&ext=jpg&ga=GA1.2.2027385377.1690631469&semt=ais",

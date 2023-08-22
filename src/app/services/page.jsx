@@ -20,6 +20,7 @@ const Services = () => {
   const data = getData();
   return (
     <>
+    
       <Container>
         <div className="min-h-screen bg-transparent flex justify-center items-center py-20">
           <div className="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-3 gap-8 space-y-4 md:space-y-0">
@@ -28,7 +29,7 @@ const Services = () => {
                 key={item.id}
                 className="max-w-sm bg-white px-6 pt-6 pb-2 rounded-xl shadow-lg transform  hover:scale-105 transition duration-300 hover:shadow-black  hover:border-solid"
               >
-                <h3 className="mb-3 text-xl font-bold text-indigo-600">
+                <h3 className="mb-3 text-sm text-center font-bold text-indigo-600">
                   {item.title}
                 </h3>
                 <div className="relative">
@@ -38,7 +39,7 @@ const Services = () => {
                     alt="Colors"
                   />
                 </div>
-                <h1 className="mt-4 text-gray-800 text-2xl font-bold cursor-pointer">
+                <h1 className="mt-4 text-gray-800 text-sm text-center font-bold cursor-pointer">
                   {item.desc}
                 </h1>
                 <div className="my-4">
@@ -46,7 +47,7 @@ const Services = () => {
                     <span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="h-6 w-6 text-indigo-600 mb-1.5"
+                        className="h-4 w-4 text-indigo-600 mb-1.5"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -59,13 +60,13 @@ const Services = () => {
                         />
                       </svg>
                     </span>
-                    <p>{item.label}</p>
+                    <p className="text-sm">{item.label}</p>
                   </div>
-                  <div className="flex space-x-1 items-center">
+                  <div className="flex space-x-1 items-center mt-1">
                     <span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="h-6 w-6 text-indigo-600 mb-1.5"
+                        className="h-4 w-4 text-indigo-600 mb-1.5"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -78,13 +79,13 @@ const Services = () => {
                         />
                       </svg>
                     </span>
-                    <p>{item.label1}</p>
+                    <p className="text-sm">{item.label1}</p>
                   </div>
-                  <div className="flex space-x-1 items-center">
+                  <div className="flex space-x-1 items-center mt-1">
                     <span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="h-6 w-6 text-indigo-600 mb-1.5"
+                        className="h-4 w-4 text-indigo-600 mb-1.5"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -97,11 +98,11 @@ const Services = () => {
                         />
                       </svg>
                     </span>
-                    <p>{item.label2}</p>
+                    <p className="text-sm">{item.label2}</p>
                   </div>
                   <Link href={`/services/${item.slug}`}>
                     {" "}
-                    <button className="mt-4 text-xl w-full text-white bg-indigo-600 py-2 rounded-xl shadow-lg">
+                    <button className="mt-4 text-sm w-full text-white bg-indigo-600 py-2 rounded-xl shadow-lg">
                       LEARN MORE
                     </button>
                   </Link>
@@ -111,7 +112,6 @@ const Services = () => {
           </div>
         </div>
       </Container>
-
       <div className="h-px flex-auto mx-20  bg-white" />
     </>
   );

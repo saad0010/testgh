@@ -18,22 +18,23 @@ const Banner = () => {
             {/* left */}
             <div className="flex flex-col gap-6 xl:gap-10">
               <FadeIn>
-                <h1 className="text-3xl lg:text-4xl xl:text-5xl font-semibold">
+                <h1 className="text-2xl ml-10 lg:text-3xl xl:text-3xl font-semibold">
                   LET US INTRODUCE YOU TO THE WORLD DIGITALLY
                 </h1>
               </FadeIn>
               <FadeIn>
-                <p className="text-sm tracking-wide">
+                <p className="text-xl ml-10 tracking-wide">
                   Our digital marketing services are trusted by business owners
-                  and entrepreneurs across Canada and North America. We can help
-                  you drive relevant traffic, achieve accurate positioning,
-                  generate better leads, boost sales & maximize ROI. Find out
-                  how Shyft can take your enterprise off the ground and make it
-                  stand out in the digital marketplace.
+                  and entrepreneurs across Canada and North America.{" "}
+                  <p className="mt-4">
+                    We can help you drive relevant traffic, achieve accurate
+                    positioning, generate better leads, boost sales & maximize
+                    ROI.
+                  </p>
                 </p>
               </FadeIn>
               <FadeIn>
-                <div className="w-full p-6 xl:p-10 bg-white rounded-3xl flex flex-col lg:flex-row text-black justify-between gap-5">
+                <div className="w-full p-6 xl:p-8 ml-10 bg-white rounded-3xl flex flex-col lg:flex-row text-black justify-between gap-5">
                   {/* <Link
                     // className="w-full h-12 justify-center  rounded-xl   bg-black text-white uppercase font-medium hover:bg-green-950 cursor-pointer duration-300"
                     href={"/contact"}

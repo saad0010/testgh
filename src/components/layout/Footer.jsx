@@ -25,11 +25,11 @@ const Footer = () => {
                   DIGITAL TECH SERVICES
                 </h2>
               </Link>
-              <p className="text-white">
+              <p className="text-white text-sm mt-3">
                 Digital Tech is a full-service digital marketing agency that
                 helps great companies grow their revenues online
               </p>
-              <p className="max-w-xs text-white mt-4 text-2xl font-bold">
+              <p className="max-w-xs text-white mt-4 text-xl font-bold">
                 sales@digitaltech.services
               </p>
               <div className="flex mt-8 space-x-6 text-gray-600">

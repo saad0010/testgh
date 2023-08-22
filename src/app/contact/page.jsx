@@ -11,17 +11,17 @@ const Contact = () => {
   return (
     <>
       <Container>
-        <div className="flex w-full min-h-screen justify-center items-center">
+        <div className="flex w-full  justify-center items-center">
           <div className=" flex flex-col md:flex-row md:space-x-6  space-y-6 md:space-y-0 bg-gradient-to-r from-purple-500 to-indigo-900 w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-black">
             <div className="flex flex-col space-y-8 justify-between">
               <div>
-                <h1 className="font-bold text-4xl text-white tracking-wide">
+                <h1 className="font-bold text-3xl text-white tracking-wide">
                   Contact Us
                 </h1>
                 <p className="pt-2 text-white text-sm">
-                  To speak with a North Wave expert, provide some information
-                  about your organization and we’ll contact you about your
-                  needs.
+                  To speak with a Digital Tech Services expert, provide some
+                  information about your organization and we’ll contact you
+                  about your needs.
                 </p>
               </div>
 
@@ -55,54 +55,33 @@ const Contact = () => {
               </div>
             </div>
             <div>
-
               <div className="group bg-gradient-to-r from-purple-500 to-indigo-900 rounded-xl shadow-lg p-8 md:w-80">
-
                 <form action="" className="flex flex-col space-y-4">
                   <div>
-                    <label
-                      htmlFor=""
-
-                      className="text-sm text-white"
-
-                    >
-                      Name
+                    <label htmlFor="" className="text-sm text-white">
+                      Full Name
                     </label>
                     <input
                       type="text"
-                      placeholder="Enter Name .."
-
+                      placeholder="e.g John Smith .."
                       className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 bg-slate-300  mt-2 outline-none focus:ring-2 focus:ring-teal-300 "
-
                     />
                   </div>
 
                   <div>
-                    <label
-                      htmlFor=""
-
-                      className="text-sm text-white"
-
-                    >
+                    <label htmlFor="" className="text-sm text-white">
                       Email
                     </label>
 
                     <input
                       type="email"
-                      placeholder="Enter Email .."
-
+                      placeholder="abc@mail.com"
                       className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 bg-slate-300 outline-none focus:ring-2 focus:ring-teal-300"
-
                     />
                   </div>
 
                   <div>
-                    <label
-                      htmlFor=""
-
-                      className="text-sm text-white"
-
-                    >
+                    <label htmlFor="" className="text-sm text-white">
                       Message
                     </label>
 
@@ -110,12 +89,10 @@ const Contact = () => {
                       type="email"
                       rows="4"
                       placeholder="Enter Message .."
-
                       className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 bg-slate-300  outline-none border-none focus:ring-2 focus:ring-teal-300"
                     />
                   </div>
                   <button className="inline-block self-end bg-purple-500 hover:bg-purple-700 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm">
-
                     Send Message
                   </button>
                 </form>
