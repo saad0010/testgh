@@ -39,15 +39,15 @@ const SecHero = (props) => {
             {/* Right */}
             <div className="flex flex-col gap-6 xl:gap-10">
               <FadeIn>
-                <h1 className="text-3xl lg:text-4xl xl:text-5xl font-semibold">
+                <h1 className="text-2xl lg:text-3xl xl:text-3xl font-semibold">
                   {heading}
                 </h1>
               </FadeIn>
               <FadeIn>
-                <p className="text-xl tracking-wide">{description}</p>
+                <p className="text-xl  tracking-wide">{description}</p>
               </FadeIn>
               <FadeIn>
-                <div className="w-full p-6 xl:p-10 bg-white rounded-3xl flex flex-col lg:flex-row text-black justify-between gap-5">
+                <div className="w-full p-4 xl:p-6 bg-white rounded-3xl flex flex-col lg:flex-row text-black justify-between gap-5">
                   {/* <Link
                     // className="w-full h-12 justify-center  rounded-xl   bg-black text-white uppercase font-medium hover:bg-green-950 cursor-pointer duration-300"
                     href={"/contact"}
@@ -56,7 +56,7 @@ const SecHero = (props) => {
                   </Link> */}
                   <Link href={"/contact"} className="w-full">
                     {" "}
-                    <button className="w-full px-4   h-12 rounded-xl bg-purple-700 text-white uppercase font-medium hover:bg-black cursor-pointer duration-300">
+                    <button className="w-full px-4 text-sm  h-12 rounded-xl bg-purple-700 text-white uppercase font-medium hover:bg-black cursor-pointer duration-300">
                       WORK WITH US
                     </button>
                   </Link>

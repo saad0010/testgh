@@ -11,10 +11,10 @@ const BecomClient = () => {
 
     <section className="mt-10 mb-10 bg-transparent w-full bg-cover bg-center py-32">
       <div className="container mx-auto text-center text-white">
-        <h1 className="text-xl md:text-4xl font-medium mb-6">
+        <h1 className="text-xl md:text-2xl font-medium mb-6">
           A B2B consultancy with expertise in
         </h1>
-        <p className=" text-4xl md:text-8xl mb-12">
+        <p className=" text-4xl md:text-6xl mb-12">
           <Typewriter
             words={[
               "PPC (PAY PER CLICK)",
@@ -36,7 +36,7 @@ const BecomClient = () => {
         <Link href={"/contact"}>
           <span
             href="#"
-            className="bg-purple-600 text-white text-sm py-2 px-8 md:text-xl md:py-4 md:px-12 rounded-full hover:bg-purple-950"
+            className="bg-purple-600 text-white text-sm py-2 px-8 md:text-lg md:py-4 md:px-12 rounded-full hover:bg-purple-950"
           >
             Book A 30 Minute Free Consultation
           </span>

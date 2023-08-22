@@ -33,11 +33,11 @@ const Cards = (props) => {
             key={item.id}
             className="max-w-sm bg-white px-6 pt-6 pb-2 rounded-xl shadow-lg transform  hover:scale-105 transition duration-800 hover:shadow-purple-950 hover:border-purple-950 group  hover:bg-gradient-to-r from-purple-500 to-indigo-900 hover:border-solid"
           >
-            <h3 className="mb-3 text-2xl font-bold text-indigo-600 group-hover:text-white ">
+            <h3 className="mb-3 text-xl text-center font-bold text-indigo-600 group-hover:text-white ">
               {item.title}
             </h3>
 
-            <h1 className="mt-4 text-gray-800 text-xl font-semibold cursor-pointer group-hover:text-white">
+            <h1 className="mt-4 text-gray-800 text-lg font-semibold cursor-pointer group-hover:text-white">
               {item.desc}
             </h1>
           </div>
