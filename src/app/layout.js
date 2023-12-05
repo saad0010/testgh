@@ -4,9 +4,11 @@ import Footer from "@/components/layout/Footer";
 import BecomClient from "@/components/layout/BecomClient";
 
 export const metadata = {
-  title: "Digital Tech Services : Digital Marketing Agency",
+  title:
+    "TEES WEATHER : CUSTOM CLOTHING MANUFACTURER | PRINTING SERVICES | PERSONALIZED CUSTOM T-SHIRTS",
 
-  description: "Digital Marketing Agency",
+  description:
+    "Online Printing Services,custom clothing manufacturer, custom t-shirts, custom caps, custom hoodies",
 };
 
 export default function RootLayout({ children }) {

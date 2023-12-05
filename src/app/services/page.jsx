@@ -7,6 +7,15 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Image } from "next/image";
 import { IoArrowForwardOutline } from "react-icons/io5";
+
+export const metadata = {
+  title:
+    "Services - TEES WEATHER | Screen Printing | Embroidery | 3D Puff Solution",
+
+  description:
+    "Online Printing Services,custom clothing manufacturer, custom t-shirts, custom caps, custom hoodies, screen printing , embroidery, 3d puff solutions, twill , applique services, promotional products, direct to garment , sublimation",
+};
+
 const getData = () => {
   const data = items["services"];
 

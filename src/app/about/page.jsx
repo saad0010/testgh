@@ -8,6 +8,14 @@ import ab2 from "../../../public/ab2.jpg";
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+  title:
+    "About - TEES WEATHER | Screen Printing | Embroidery | 3D Puff Solution",
+
+  description:
+    "Online Printing Services,custom clothing manufacturer, custom t-shirts, custom caps, custom hoodies, screen printing , embroidery, 3d puff solutions, twill , applique services, promotional products, direct to garment , sublimation",
+};
+
 const About = () => {
   return (
     <>
