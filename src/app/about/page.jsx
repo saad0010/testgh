@@ -15,27 +15,28 @@ const About = () => {
         <div className="flex flex-col gap-6">
           <FadeIn>
             <Title
-              clas="text-3xl  ml-40 text-white font-semibold"
+              clas="text-3xl  ml-40 text-black font-semibold"
               title="Who are we?"
             />
           </FadeIn>
           <FadeIn>
             <div className="flex flex-col md:flex-row items-start gap-10">
-              <p className="mx-20 text-lg mt-1 text-white  tracking-wider">
+              <p className="mx-20 text-lg mt-1 text-black  tracking-wider">
                 Since 2017, we’ve been trusted for offering comprehensive
-                digital marketing solutions from the heart of Toronto.{" "}
+                printing solutions from the heart of Toronto.{" "}
                 <p className="mt-6">
                   {" "}
-                  Our services cover search engine optimization, pay-per-click
-                  advertising or website design or development our team has got
-                  it all covered backed up with years of experience, research
-                  and hardwork.
+                  We are a team of professional and passionate artists who have
+                  been providing excellent services since 2008. We are an online
+                  screen printing company, on a mission to make printing
+                  services easy and flexible. We are a solution for you if you
+                  need personalized wearables or other items.
                 </p>
                 <br />
                 <Link href={"/contact"}>
                   {" "}
                   <button className="w-100 px-4 mt-8 text-md h-12 rounded-xl bg-purple-600 text-white uppercase font-medium hover:bg-black cursor-pointer duration-300">
-                    FEEL FREE TO TALK TO US
+                    FEEL FREE TO TALK
                   </button>
                 </Link>
               </p>
@@ -63,7 +64,7 @@ const About = () => {
                 alt="bannerImg"
                 className="max-w-xs ml-20 mt-4 rounded"
               />
-              <p className="mx-20 text-lg mt-1 text-white  tracking-wider">
+              <p className="mx-20 text-lg mt-1 text-black  tracking-wider">
                 <p>
                   {" "}
                   No matter the size or scope, our mission is to facilitate
@@ -72,18 +73,18 @@ const About = () => {
                   visibility.
                 </p>{" "}
                 <p className="mt-6">
-                  All our clients do is trust us and our digital marketing team
-                  takes care of the rest. Through our marketing efforts and
-                  strategies we jumpstart your growth, upscale your business and
-                  bring in lot of leads, conversions and sales leading to
-                  profitable outcomes and success stories along your way.
+                  All our clients do is trust us and our designing team takes
+                  care of the rest. Through our designing efforts and strategies
+                  we jumpstart your growth, upscale your business and bring in
+                  lot of leads, conversions and sales leading to profitable
+                  outcomes and success stories along your way.
                 </p>
                 {/* <hr className="mb-8 mt-20 bg-transparent" /> */}
                 <br />
                 <Link href={"/contact"}>
                   {" "}
                   <button className="w-100 px-4 mt-8 text-md  h-12 rounded-xl bg-purple-600 text-white uppercase font-medium hover:bg-black cursor-pointer duration-300">
-                    FEEL FREE TO TALK TO US
+                    FEEL FREE TO TALK
                   </button>
                 </Link>
               </p>
@@ -101,12 +102,11 @@ const About = () => {
           </FadeIn>
           <FadeIn>
             <div className="flex flex-col md:flex-row items-start gap-10">
-              <p className="mx-20 text-lg mt-4 text-white tracking-wider">
-                Digital Tech Services is one of the best marketing agencies
-                based in Canada that offers customized growth oriented marketing
-                solutions to help business gain digital exposure and competitive
-                edge so they can garner the interest of their customers and
-                achieve their strategic goals and mission easily.
+              <p className="mx-20 text-lg mt-4 text-black tracking-wider">
+                Tees Weather is a one-stop shop for printing and designing
+                services. We believe in perfection, so we are using various
+                printing technologies to get the required results. With years of
+                experience, our staff can offer top-notch printing services.
               </p>
               <Image
                 src={ab2}

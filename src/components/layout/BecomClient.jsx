@@ -10,19 +10,19 @@ const BecomClient = () => {
     // <div className="h-screen bg-black flex items-center">
 
     <section className="mt-10 mb-10 bg-transparent w-full bg-cover bg-center py-32">
-      <div className="container mx-auto text-center text-white">
+      <div className="container mx-auto text-center text-black">
         <h1 className="text-xl md:text-2xl font-medium mb-6">
           A B2B consultancy with expertise in
         </h1>
-        <p className=" text-4xl md:text-6xl mb-12">
+        <p className=" text-4xl md:text-6xl mb-12 text-purple-800">
           <Typewriter
             words={[
-              "PPC (PAY PER CLICK)",
-              "Email Marketing",
-              "Logo Design",
-              "SEO",
-              "Affiliate Marketing",
-              "Competitor Analysis",
+              "Screen Printing",
+              "Embroidery",
+              "3D Puff Solutions",
+              "Twill & Applique",
+              "Direct To Garment",
+              "Sublimation",
             ]}
             loop={0}
             cursor

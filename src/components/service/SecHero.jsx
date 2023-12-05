@@ -16,7 +16,7 @@ const SecHero = (props) => {
     <>
       <div className="bg-transparent w-full  rounded-br-3xl px-4 relative">
         <Container>
-          <div className="text-white grid md:grid-cols-2 gap-20 place-items-center">
+          <div className="text-black grid md:grid-cols-2 gap-20 place-items-center">
             {/* left */}
             <div className="w-full relative flex justify-center items-center gap-6 overflow-hidden">
               <motion.div

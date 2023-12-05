@@ -12,16 +12,16 @@ const Contact = () => {
     <>
       <Container>
         <div className="flex w-full  justify-center items-center">
-          <div className=" flex flex-col md:flex-row md:space-x-6  space-y-6 md:space-y-0 bg-gradient-to-r from-purple-500 to-indigo-900 w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-black">
+          <div className=" flex flex-col md:flex-row md:space-x-6  space-y-6 md:space-y-0 bg-slate-600 w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-black">
             <div className="flex flex-col space-y-8 justify-between">
               <div>
                 <h1 className="font-bold text-3xl text-white tracking-wide">
                   Contact Us
                 </h1>
                 <p className="pt-2 text-white text-sm">
-                  To speak with a Digital Tech Services expert, provide some
-                  information about your organization and we’ll contact you
-                  about your needs.
+                  To speak with a Tees Weather expert, provide some information
+                  about your organization and we’ll contact you about your
+                  needs.
                 </p>
               </div>
 
@@ -32,7 +32,7 @@ const Contact = () => {
                 </div>
                 <div className="inline-flex space-x-2 items-center">
                   <AiOutlineMail className="text-black text-xl" />
-                  <span className="text-white">sales@northwave.com</span>
+                  <span className="text-white">sales@teesweather.com</span>
                 </div>
                 <div className="inline-flex space-x-2 items-center">
                   <HiLocationMarker className="text-black text-xl" />
@@ -55,7 +55,7 @@ const Contact = () => {
               </div>
             </div>
             <div>
-              <div className="group bg-gradient-to-r from-purple-500 to-indigo-900 rounded-xl shadow-lg p-8 md:w-80">
+              <div className="group bg-slate-900 rounded-xl shadow-lg p-8 md:w-80">
                 <form action="" className="flex flex-col space-y-4">
                   <div>
                     <label htmlFor="" className="text-sm text-white">

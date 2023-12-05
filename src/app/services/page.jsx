@@ -6,6 +6,7 @@ import { items } from "./data.js";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Image } from "next/image";
+import { IoArrowForwardOutline } from "react-icons/io5";
 const getData = () => {
   const data = items["services"];
 
@@ -20,7 +21,6 @@ const Services = () => {
   const data = getData();
   return (
     <>
-    
       <Container>
         <div className="min-h-screen bg-transparent flex justify-center items-center py-20">
           <div className="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-3 gap-8 space-y-4 md:space-y-0">
@@ -102,8 +102,9 @@ const Services = () => {
                   </div>
                   <Link href={`/services/${item.slug}`}>
                     {" "}
-                    <button className="mt-4 text-sm w-full text-white bg-indigo-600 py-2 rounded-xl shadow-lg">
-                      LEARN MORE
+                    <button className="flex  justify-center mt-4 text-sm w-full text-white bg-indigo-600 py-2 rounded-xl shadow-lg">
+                      MORE{" "}
+                      <IoArrowForwardOutline className="ml-2 mt-0.5 w-4 h-4" />
                     </button>
                   </Link>
                 </div>

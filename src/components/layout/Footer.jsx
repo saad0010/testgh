@@ -15,22 +15,25 @@ const Footer = () => {
   ];
   return (
     <>
-      <footer className="bg-gradient-to-r from-purple-600 to-black">
+      <footer className="bg-white">
         <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>
               {/* <img src="#" className="mr-5 h-6 sm:h-9" alt="logo" /> */}
               <Link href={"/"}>
-                <h2 className="text-2xl text-white font-semibold">
-                  DIGITAL TECH SERVICES
+                <h2 className="text-2xl text-black font-semibold">
+                  TEES WEATHER
                 </h2>
               </Link>
-              <p className="text-white text-sm mt-3">
-                Digital Tech is a full-service digital marketing agency that
-                helps great companies grow their revenues online
+              <p className="text-black text-sm mt-3">
+                TEES WEATHER is one of the leading online screen printing and
+                digitizing companies in United States
               </p>
-              <p className="max-w-xs text-white mt-4 text-xl font-bold">
-                sales@digitaltech.services
+              <p className="max-w-xs text-black mt-4 text-xl font-bold">
+                +1 234 456 7890
+              </p>
+              <p className="max-w-xs text-black mt-4 text-xl font-bold">
+                sales@teesweather.com
               </p>
               <div className="flex mt-8 space-x-6 text-gray-600">
                 <a
@@ -41,7 +44,7 @@ const Footer = () => {
                 >
                   <span className="sr-only"> Facebook </span>
                   <svg
-                    className="w-6 h-6 text-white hover:text-black"
+                    className="w-6 h-6 text-black hover:text-white"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
@@ -61,7 +64,7 @@ const Footer = () => {
                 >
                   <span className="sr-only"> Instagram </span>
                   <svg
-                    className="w-6 h-6 text-white hover:text-black"
+                    className="w-6 h-6 text-black hover:text-white"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
@@ -81,7 +84,7 @@ const Footer = () => {
                 >
                   <span className="sr-only text-white"> Twitter </span>
                   <svg
-                    className="w-6 h-6 text-white hover:text-black"
+                    className="w-6 h-6 text-black hover:text-purple"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
@@ -97,7 +100,7 @@ const Footer = () => {
                 >
                   <span className="sr-only text-white"> GitHub </span>
                   <svg
-                    className="w-6 h-6 text-white hover:text-black"
+                    className="w-6 h-6 text-black hover:text-purple"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
@@ -117,7 +120,7 @@ const Footer = () => {
                 >
                   <span className="sr-only"> Dribbble </span>
                   <svg
-                    className="w-6 h-6 text-white hover:text-black"
+                    className="w-6 h-6 text-black hover:text-purple"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
@@ -131,10 +134,10 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-            <div className="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-4">
-              <div>
-                <p className="font-medium text-white">Company</p>
-                <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
+            <div className="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-4 ">
+              <div className="">
+                <p className="font-medium text-black ">Company</p>
+                <nav className="flex flex-col mt-4 space-y-2 text-sm  text-black">
                   <Link href={"/"}>
                     {" "}
                     <span className="hover:opacity-75"> Home </span>
@@ -147,10 +150,10 @@ const Footer = () => {
                     {" "}
                     <span className="hover:opacity-75"> Become a client </span>
                   </Link>
-                  <Link href={"/casestudies"}>
+                  {/* <Link href={"/casestudies"}>
                     {" "}
                     <span className="hover:opacity-75"> Case Studies </span>
-                  </Link>
+                  </Link> */}
                   <Link href={"/blogs"}>
                     {" "}
                     <span className="hover:opacity-75"> Blogs </span>
@@ -158,58 +161,61 @@ const Footer = () => {
                 </nav>
               </div>
               <div>
-                <p className="font-medium text-white">Services</p>
-                <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
+                <p className="font-medium text-black">Services</p>
+                <nav className="flex flex-col mt-4 space-y-2 text-sm text-black">
                   <Link href={"/services/seo"}>
-                    <span className="hover:opacity-75"> SEO </span>
+                    <span className="hover:opacity-75"> Screen Printing </span>
                   </Link>
 
                   <Link href={"/services/social"}>
-                    <span className="hover:opacity-75">
-                      {" "}
-                      Social Media Marketing{" "}
-                    </span>
+                    <span className="hover:opacity-75"> Emboridery </span>
                   </Link>
                   <Link href={"/services/ppc"}>
                     <span className="hover:opacity-75">
                       {" "}
-                      PPC (Pay Per Click){" "}
+                      3D Puff Solutions{" "}
                     </span>
                   </Link>
                   <Link href={"/services/affiliate"}>
                     <span className="hover:opacity-75">
                       {" "}
-                      Affiliate Marketing{" "}
+                      Twill & Applique Services{" "}
                     </span>
                   </Link>
                   <Link href={"/services/email"}>
-                    <span className="hover:opacity-75"> Email Marketing </span>
+                    <span className="hover:opacity-75">
+                      {" "}
+                      Promotional Products{" "}
+                    </span>
                   </Link>
                   <Link href={"/services/webdesign"}>
-                    <span className="hover:opacity-75"> Web Design </span>
+                    <span className="hover:opacity-75">
+                      {" "}
+                      Direct To Garment{" "}
+                    </span>
                   </Link>
                   <Link href={"/services/social"}>
-                    <span className="hover:opacity-75"> Logo Design </span>
+                    <span className="hover:opacity-75"> Sublimation </span>
                   </Link>
                 </nav>
               </div>
               <div>
-                <p className="font-medium text-white">Helpful Links</p>
-                <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
+                <p className="font-medium text-black">Products</p>
+                <nav className="flex flex-col mt-4 space-y-2 text-sm text-black">
                   <Link href={"/contact"}>
-                    <span className="hover:opacity-75"> Contact </span>
+                    <span className="hover:opacity-75"> Shirts </span>
                   </Link>
                   <Link href={"/faqs"}>
-                    <span className="hover:opacity-75"> FAQs </span>
+                    <span className="hover:opacity-75"> Caps </span>
                   </Link>
                   <Link href={"/contact"}>
-                    <span className="hover:opacity-75"> Live Chat </span>
+                    <span className="hover:opacity-75"> Hoodies </span>
                   </Link>
                 </nav>
               </div>
               <div>
-                <p className="font-medium text-white">Legal</p>
-                <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
+                <p className="font-medium text-black">Legal</p>
+                <nav className="flex flex-col mt-4 space-y-2 text-sm text-black">
                   <Link href={"/privacypolicy"}>
                     <span className="hover:opacity-75"> Privacy Policy </span>
                   </Link>
@@ -220,15 +226,13 @@ const Footer = () => {
                     </span>
                   </Link>
 
-                  <Image src={logo} alt="logoImage" className="w-full h-full" />
+                  {/* <Image src={logo} alt="logoImage" className="w-full h-full" /> */}
                 </nav>
               </div>
             </div>
           </div>
 
-          <p className="mt-8 text-xs  text-white">
-            © 2023 DIGITAL TECH SERVICES
-          </p>
+          <p className="mt-8 text-xs  text-black">© 2023 TEES WEATHER</p>
         </div>
       </footer>
     </>

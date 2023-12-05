@@ -21,15 +21,15 @@ const Header = () => {
   }, [pathName]);
 
   return (
-    <div className="w-full h-20 border-b-[1px] border-gray-500 px-2 bg-black">
+    <div className="w-full h-20 border-b-[1px] border-gray-500 px-2 bg-white">
       <div className="h-full max-w-screen-2xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <Link href={"/"} className="relative group overflow-hidden">
           {/* <Image  src={logo}
                   alt="logoImg" className="flex-1 h-20"
                  /> */}
-          <p className="text-2xl text-white font-bold uppercase">
-            DIGITAL TECH SERVICES
+          <p className="text-2xl text-gray-500 font-bold uppercase">
+            TEES WEATHER
           </p>
           <span className="absolute bottom-0 w-full h-[2px] inline-block bg-purpleColor -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-700"></span>
         </Link>
@@ -61,7 +61,9 @@ const Header = () => {
                 <IoCloseSharp />
               </span>
               <Link href={"/"} onClick={() => setShowMenu(false)}>
-                <p className="text-2xl font-bold text-white mb-4">North Wave</p>
+                <p className="text-2xl font-bold text-white mb-4">
+                  TEES WEATHER
+                </p>
               </Link>
               <ul className="flex flex-col text-gray-300 uppercase text-sm font-semibold gap-3">
                 {headerListItem.map((item) => (
@@ -86,8 +88,8 @@ const Header = () => {
             {headerListItem.map((item) => (
               <Link key={item._id} href={item.link}>
                 <li
-                  className={`${active === item.link && "text-white"}
-                  text-gray-600 text-white hover:text-purpleColor cursor-pointer duration-300 group relative`}
+                  className={`${active === item.link && "text-black"}
+                  text-gray-600 text-black hover:text-purpleColor cursor-pointer duration-300 group relative`}
                 >
                   {item.title}
                   <span
@@ -101,7 +103,7 @@ const Header = () => {
           </ul>
           <Link href={"/contact"}>
             <button className="w-36 h-10 bg-purpleColor text-white uppercase rounded hover:bg-purple-700 duration-300 tracking-wide">
-              Hire Us
+              GET A QUOTE
             </button>
           </Link>
         </div>

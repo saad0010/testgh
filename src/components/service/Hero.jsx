@@ -14,27 +14,21 @@ const Hero = (props) => {
 
   return (
     <>
-
       <div className="bg-transparent w-full   px-4 relative">
-
         <Container>
-          <div className="text-white grid md:grid-cols-2 gap-20 place-items-center">
+          <div className="text-black grid md:grid-cols-2 gap-20 place-items-center">
             {/* left */}
             <div className="flex flex-col gap-6 xl:gap-10">
               <FadeIn>
-
                 <h1 className="text-2xl lg:text-3xl xl:text-3xl font-semibold">
-
                   {heading}
                 </h1>
               </FadeIn>
               <FadeIn>
-
                 <p className="text-xl tracking-wide">{description}</p>
               </FadeIn>
               <FadeIn>
                 <div className="w-full mt-10 p-4 xl:p-6 bg-white rounded-3xl flex flex-col lg:flex-row text-black justify-between gap-5">
-
                   {/* <Link
                     // className="w-full h-12 justify-center  rounded-xl   bg-black text-white uppercase font-medium hover:bg-green-950 cursor-pointer duration-300"
                     href={"/contact"}

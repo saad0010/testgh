@@ -3,40 +3,41 @@ import Clients from "@/components/clients/Clients";
 import Card from "@/components/home/Card";
 import SecHero from "@/components/service/SecHero";
 import Image from "next/image";
-
+import bannerTwo from "../../public/1.png";
+import bannerTwo2 from "../../public/22.jpg";
 const cardData = [
   {
     id: 1,
-    title: "SEACRH ENGINE OPTIMIZATION",
-    slug: "seo",
-    desc: "GET THE BEST ORGANIC SEO SERVICES",
-    label: "SCHEDULE A CALL",
-    label1: "TAILORED SEO STRATEGY",
-    label2: "HIGHER RANKINGS!",
+    title: "T-Shirts",
+    slug: "tshirts",
+    desc: "Give Your Apparel the Pro Treatment ",
+    label: "24/7 Support",
+    label1: "Fast Delivery",
+    label2: "High Standards!",
     image:
-      "https://img.freepik.com/free-vector/seo-analytics-team-concept-illustration_114360-9205.jpg?w=740&t=st=1691185201~exp=1691185801~hmac=16a5f3990d8d9336726c2a7aa937e07db629ff392478c49f1edd447482c1e93f",
+      "https://img.freepik.com/free-psd/simple-black-men-s-tee-mockup_53876-57893.jpg?size=626&ext=jpg&ga=GA1.1.644798112.1701734241&semt=sph",
   },
   {
     id: 2,
-    title: "WEB DESIGN",
-    slug: "webdesign",
-    desc: "STUNNING WEB DESIGN & DEVELOPMENT SERVICES",
-    label: "User Friendly Web Design",
-    label1: "Complete Website Development",
-    label2: "E-commerce",
+    title: "CAPS",
+    slug: "caps",
+    desc: "STUNNING DESIGN SERVICES",
+    label: "24/7 Support",
+    label1: "Fast Delivery",
+    label2: "High Standards",
     image:
-      "https://img.freepik.com/free-psd/american-food-website-app-template_23-2148477329.jpg?w=996&t=st=1691185236~exp=1691185836~hmac=205da32db6c87d25a6e79348ad390a3e3316072766b97dc1bf0c4807893527ed",
+      "https://img.freepik.com/free-psd/cap-mock-up-front-view_1310-153.jpg?size=626&ext=jpg&ga=GA1.1.644798112.1701734241&semt=sph",
   },
   {
     id: 3,
-    title: "SOCIAL MEDIA MARKETING",
-    slug: "social",
-    desc: "Grow Your Business by Social Media Engagement",
-    label: "Connect, Engage, Succeed",
-    label1: " Social Media Presence",
-    label2: "Art of Social Media Solutions",
+    title: "HOODIES",
+    slug: "hoodie",
+    desc: "We'll include the colour code or Pantone number in your artwork approval so you can double-check it before we start manufacturing.",
+    label: "24/7 Support",
+    label1: " Fast Delivery",
+    label2: "High Standards",
     image:
-      "https://img.freepik.com/free-vector/hand-drawn-illustration-people-with-smartphone-marketing_52683-66659.jpg?size=626&ext=jpg&ga=GA1.2.2027385377.1690631469&semt=ais",
+      "https://img.freepik.com/free-psd/psd-white-hoodie-mockup_1409-3755.jpg?size=626&ext=jpg&ga=GA1.1.644798112.1701734241&semt=sph",
   },
   // {
   //   id: 4,
@@ -84,13 +85,13 @@ export default function Home() {
       <Card cardData={cardData} />
 
       <SecHero
-        heading="SEO Strategies That Work"
-        description="As the best digital marketing agency, we have decoded and found all the ways that actually work to rank your website. Our organic SEO services are dedicated to providing you with strategic value-added content and technical optimizations that will skyrocket your website to the top of Google’s search results. SEO is the #1 marketing solution for increasing organic traffic to your website, and we know how to make it work for you."
-        image={image}
+        heading="Style Your Apparel That Makes Statement"
+        description="We print variety! Whether you are looking for embroidered clothing, tackle twill apparel, gifts for family or friends, or fashion statements, you have almost limitless options for turning your concepts into desirable items. If you want screen printing, custom embroidery, or 3D puff embroidery for your hats, bags, or shirts, share your ideas with us. We have a specialist who will listen to your ideas and make them happen. "
+        image={bannerTwo}
       />
       <Clients />
 
-      <div className="h-px flex-auto mx-20  bg-white" />
+      <div className="h-px flex-auto mx-20  bg-black" />
     </main>
   );
 }

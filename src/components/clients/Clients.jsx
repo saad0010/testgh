@@ -31,15 +31,18 @@ const Clients = () => {
           <div>
             <FadeIn>
               {" "}
-              <h2 className="text-center text-white text-4xl mb-9 font-semibold  tracking-wider">
-                Clients
+              <h2 className="text-center text-black text-4xl mb-9 font-semibold  tracking-wider">
+                Marketing & Branding
               </h2>
             </FadeIn>
             <FadeIn className="flex items-center gap-x-8">
-              <h2 className="text-center text-white text-xl font-semibold  tracking-wider">
-                We Have Worked With Hundreds of Amazing People
+              <h2 className="text-center text-black text-xl font-semibold  tracking-wider">
+                Tees Weather supplies their services in Ontario, Canada. Our
+                team has extensive expertise in screen printing, embroidery, and
+                digitization. Our clients have been working with us for many
+                years and are confident in our abilities.
               </h2>
-              <div className="h-px flex-auto bg-white" />
+              <div className="h-px flex-auto bg-black" />
             </FadeIn>
             <FadeInStagger faster>
               <ul

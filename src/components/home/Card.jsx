@@ -6,6 +6,7 @@ import Title from "@/components/title/Title";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Image } from "next/image";
+import { IoArrowForwardOutline } from "react-icons/io5";
 
 const Card = (props) => {
   const cardData = props.cardData;
@@ -17,9 +18,9 @@ const Card = (props) => {
           {cardData?.map((item) => (
             <div
               key={item.id}
-              className="max-w-sm bg-white px-6 pt-6 pb-2 rounded-xl shadow-lg transform  hover:scale-105 transition duration-500 hover:shadow-purple-950 hover:border-solid"
+              className="max-w-sm bg--500 px-6 pt-6 pb-2 rounded-xl shadow-lg transform  hover:scale-105 transition duration-500 hover:shadow-purple-950 hover:border-solid"
             >
-              <h3 className="mb-3 text-sm text-center font-bold text-indigo-600">
+              <h3 className="mb-3 text-lg text-center font-bold text-slat-400">
                 {item.title}
               </h3>
               <div className="relative">
@@ -32,8 +33,8 @@ const Card = (props) => {
               <h1 className="mt-4 text-gray-800 text-sm text-center font-bold cursor-pointer">
                 {item.desc}
               </h1>
-              <div className="my-4">
-                <div className="flex space-x-1 items-center ">
+              <div className="my-4 ">
+                <div className="flex space-x-1 items-center justify-center">
                   <span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -50,9 +51,9 @@ const Card = (props) => {
                       />
                     </svg>
                   </span>
-                  <p className="text-sm ">{item.label}</p>
+                  <p className="text-sm  ">{item.label}</p>
                 </div>
-                <div className="flex space-x-1 items-center mt-1">
+                <div className="flex space-x-1 items-center mt-1 justify-center">
                   <span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +72,7 @@ const Card = (props) => {
                   </span>
                   <p className="text-sm ">{item.label1}</p>
                 </div>
-                <div className="flex space-x-1 items-center mt-1">
+                <div className="flex space-x-1 items-center mt-1 justify-center">
                   <span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -90,10 +91,14 @@ const Card = (props) => {
                   </span>
                   <p className="text-sm ">{item.label2}</p>
                 </div>
-                <Link href={`/services/${item.slug}`}>
+                <Link
+                  href={`/services/${item.slug}`}
+                  className="flex justify-center"
+                >
                   {" "}
-                  <button className="mt-4 text-sm w-full text-white bg-indigo-600 py-2 rounded-xl shadow-lg">
-                    LEARN MORE
+                  <button className="flex mt-4 justify-center text-sm w-[50%] text-white bg-indigo-600 py-2 rounded-xl shadow-lg">
+                    MORE{" "}
+                    <IoArrowForwardOutline className="ml-2 mt-0.5 w-4 h-4" />
                   </button>
                 </Link>
               </div>
