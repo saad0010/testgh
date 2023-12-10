@@ -1,43 +1,43 @@
-import Banner from "@/components/banner/Banner";
 import Clients from "@/components/clients/Clients";
 import Card from "@/components/home/Card";
 import SecHero from "@/components/service/SecHero";
 import Image from "next/image";
 import bannerTwo from "../../public/1.png";
-import bannerTwo2 from "../../public/22.jpg";
+import bannerTwo2 from "../../public/effortless.webp";
+import Banner from "@/components/products/Banner";
+import PnS from "@/components/home/PnS";
+import Review from "@/components/home/Review";
+import NewCard from "@/components/home/NewCard";
 const cardData = [
   {
     id: 1,
-    title: "T-Shirts",
-    slug: "tshirts",
-    desc: "Give Your Apparel the Pro Treatment ",
+    title: "Custom Screen Printing",
+    slug: "customscreenprinting",
+    desc: "Use our custom screen printing service to create an outstanding impression on your customers. We apply vibrant, long-lasting inks to imprint your company's name, images, and messaging onto high-quality textiles. Our state-of-the-art technology guarantees vivid, striking designs that draw in viewers. ",
     label: "24/7 Support",
     label1: "Fast Delivery",
     label2: "High Standards!",
-    image:
-      "https://img.freepik.com/free-psd/simple-black-men-s-tee-mockup_53876-57893.jpg?size=626&ext=jpg&ga=GA1.1.644798112.1701734241&semt=sph",
+    image: "https://affixapparel.com/image/catalog/screen-printing.jpg",
   },
   {
     id: 2,
-    title: "CAPS",
-    slug: "caps",
-    desc: "STUNNING DESIGN SERVICES",
+    title: "Custom Embroidery",
+    slug: "customembroidery",
+    desc: "Use our custom embroidery to uplift your brand’s sophistication. Our skilled makers precisely stitch your designs into high-quality textiles to give them a plush, textured feel. Elegance blends with precision to guarantee that your clothes convey the outstanding quality that is associated with your brand. ",
     label: "24/7 Support",
     label1: "Fast Delivery",
     label2: "High Standards",
-    image:
-      "https://img.freepik.com/free-psd/cap-mock-up-front-view_1310-153.jpg?size=626&ext=jpg&ga=GA1.1.644798112.1701734241&semt=sph",
+    image: "https://affixapparel.com/image/catalog/custom-embroidery.jpg",
   },
   {
     id: 3,
-    title: "HOODIES",
-    slug: "hoodie",
-    desc: "We'll include the colour code or Pantone number in your artwork approval so you can double-check it before we start manufacturing.",
+    title: "All-Over Sublimation Printing",
+    slug: "sublimationprinting",
+    desc: "With Affix’s all-over sublimation printing, bring out your creativity. We make every square inch of your clothing into a vivid, picture-perfect canvas. Our cutting-edge sublimation technique ensures durable, crisp prints that distinguish your business. Uncover boundless opportunities and create a lasting impact on your clientele.",
     label: "24/7 Support",
     label1: " Fast Delivery",
     label2: "High Standards",
-    image:
-      "https://img.freepik.com/free-psd/psd-white-hoodie-mockup_1409-3755.jpg?size=626&ext=jpg&ga=GA1.1.644798112.1701734241&semt=sph",
+    image: "https://affixapparel.com/image/catalog/sublimation.jpg",
   },
   // {
   //   id: 4,
@@ -81,14 +81,44 @@ export default function Home() {
   return (
     <main className="bg-transparent">
       <Banner />
-
-      <Card cardData={cardData} />
-
-      <SecHero
-        heading="Style Your Apparel That Makes Statement"
-        description="We print variety! Whether you are looking for embroidered clothing, tackle twill apparel, gifts for family or friends, or fashion statements, you have almost limitless options for turning your concepts into desirable items. If you want screen printing, custom embroidery, or 3D puff embroidery for your hats, bags, or shirts, share your ideas with us. We have a specialist who will listen to your ideas and make them happen. "
-        image={bannerTwo}
+      <PnS />
+      <Review />
+      <NewCard
+        title={"Don't settle for custom shirts no one will wear."}
+        image={
+          "https://assets-global.website-files.com/5ccc8aa73871f9d0b1c81c04/5fe48b5fc345308256f5f2bc_how%20it%20works-min-v2.jpg"
+        }
+        p1={
+          "Tees Weather's library of soft custom shirts, unique print options, and simple order process make it easier than ever to order shirts you'll love and wear proudly."
+        }
+        p={
+          " Your brand is too valuable to print on scratchy, ill-fitting shirts that no one will wear."
+        }
       />
+      <div className="pt-20">
+        <Card cardData={cardData} />
+      </div>
+      <NewCard
+        title={"Don't settle for Custom Pathes."}
+        image={
+          "https://assets-global.website-files.com/5ccc8aa73871f9d12dc81c1b/634573428c3b89cbb65b41f2_custom-tag-printing-2-p-800.jpg"
+        }
+        p1={
+          "Tees Weather's library of soft custom shirts, unique print options, and simple order process make it easier than ever to order shirts you'll love and wear proudly."
+        }
+        p={
+          " Your brand is too valuable to print on scratchy, ill-fitting shirts that no one will wear."
+        }
+      />
+
+      <div className="pt-20">
+        <SecHero
+          heading="Your products—processed, packed and delivered worldwide by Tees Weather"
+          description="Print-on-demand eliminates upfront costs and leftover stock by fulfilling products only when your customer places an order. No upfront fees. No minimums. Just effortless fulfillment.  "
+          image={bannerTwo2}
+        />
+      </div>
+      <div className="h-px flex-auto mx-20 mt-20  bg-black" />
       <Clients />
 
       <div className="h-px flex-auto mx-20  bg-black" />

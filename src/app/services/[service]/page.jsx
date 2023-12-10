@@ -35,9 +35,9 @@ const Service = ({ params }) => {
             />
             <Cards carddata={item.kpoint} />
             <SecHero
-              heading={item.title}
+              heading={item.label}
               description={item.dat}
-              image={item.image}
+              image={item.image1}
             />
           </div>
         ))}

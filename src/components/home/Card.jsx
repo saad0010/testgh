@@ -30,11 +30,11 @@ const Card = (props) => {
                   alt="Colors"
                 />
               </div>
-              <h1 className="mt-4 text-gray-800 text-sm text-center font-bold cursor-pointer">
+              <h1 className="mt-4  text-light tracking-widest  text-md text-center  cursor-pointer">
                 {item.desc}
               </h1>
               <div className="my-4 ">
-                <div className="flex space-x-1 items-center justify-center">
+                {/* <div className="flex space-x-1 items-center justify-center">
                   <span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -90,14 +90,14 @@ const Card = (props) => {
                     </svg>
                   </span>
                   <p className="text-sm ">{item.label2}</p>
-                </div>
+                </div> */}
                 <Link
                   href={`/services/${item.slug}`}
                   className="flex justify-center"
                 >
                   {" "}
                   <button className="flex mt-4 justify-center text-sm w-[50%] text-white bg-indigo-600 py-2 rounded-xl shadow-lg">
-                    MORE{" "}
+                    LEARN MORE{" "}
                     <IoArrowForwardOutline className="ml-2 mt-0.5 w-4 h-4" />
                   </button>
                 </Link>

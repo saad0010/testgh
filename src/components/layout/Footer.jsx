@@ -5,6 +5,7 @@ import { TbMinusVertical } from "react-icons/tb";
 import Link from "next/link";
 import Image from "next/image";
 import logo from "../../../public/logo.jpeg";
+import { cat, services } from "@/constants";
 
 const Footer = () => {
   const footerlist = [
@@ -15,27 +16,59 @@ const Footer = () => {
   ];
   return (
     <>
-      <footer className="bg-white">
+      <div className="grid grid-cols-1 md:grid-cols-3">
+        <div className="bg-yellow-400 pt-28">
+          <Image
+            src={
+              "https://assets-global.website-files.com/5ccc8aa73871f9d0b1c81c04/627a91ce499298ece437175b_Texture.svg"
+            }
+            alt="tees-weather"
+            width={100}
+            height={100}
+          />
+        </div>
+        <div className="bg-yellow-400 p-8 text-center">
+          <h3 className="text-4xl text-slate-700 font-semibold">
+            Ready to raise your t-shirt game ?
+          </h3>
+          <Link href={"/contact"}>
+            <button className="w-66 rounded-md mt-10 p-3 font-semibold text-white text-sm md:text-md bg-slate-600 hover:bg-indigo-400">
+              BEGIN YOUR ORDER
+            </button>
+          </Link>
+        </div>
+        <div className="bg-yellow-400 flex pb-28 justify-end">
+          <Image
+            src={
+              "https://assets-global.website-files.com/5ccc8aa73871f9d0b1c81c04/627a91cd45e8e89c26f7cac6_Texture%20(1).svg"
+            }
+            alt="tees-weather"
+            width={100}
+            height={100}
+          />
+        </div>
+      </div>
+      <footer className="bg-black">
         <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
-            <div>
+            <div className="text-center">
               {/* <img src="#" className="mr-5 h-6 sm:h-9" alt="logo" /> */}
               <Link href={"/"}>
-                <h2 className="text-2xl text-black font-semibold">
+                <h2 className="text-2xl font-kalam text-white font-semibold">
                   TEES WEATHER
                 </h2>
               </Link>
-              <p className="text-black text-sm mt-3">
-                TEES WEATHER is one of the leading online screen printing and
+              <p className="text-white text-sm mt-5">
+                Tees Weather is one of the leading online screen printing and
                 digitizing companies in United States
               </p>
-              <p className="max-w-xs text-black mt-4 text-xl font-bold">
+              <p className="max-w-xs text-white mt-4 text-xl font-bold">
                 +1 234 456 7890
               </p>
-              <p className="max-w-xs text-black mt-4 text-xl font-bold">
+              <p className="max-w-xs text-white mt-4 text-xl font-bold">
                 sales@teesweather.com
               </p>
-              <div className="flex mt-8 space-x-6 text-gray-600">
+              <div className="flex mt-8 space-x-6 justify-between text-gray-600">
                 <a
                   className="hover:opacity-75 "
                   href="http://facebook.com"
@@ -44,7 +77,7 @@ const Footer = () => {
                 >
                   <span className="sr-only"> Facebook </span>
                   <svg
-                    className="w-6 h-6 text-black hover:text-white"
+                    className="w-6 h-6 text-white hover:text-indigo-400"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
@@ -64,7 +97,7 @@ const Footer = () => {
                 >
                   <span className="sr-only"> Instagram </span>
                   <svg
-                    className="w-6 h-6 text-black hover:text-white"
+                    className="w-6 h-6 text-white hover:text-indigio-400"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
@@ -84,7 +117,7 @@ const Footer = () => {
                 >
                   <span className="sr-only text-white"> Twitter </span>
                   <svg
-                    className="w-6 h-6 text-black hover:text-purple"
+                    className="w-6 h-6 text-white hover:text-purple"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
@@ -100,7 +133,7 @@ const Footer = () => {
                 >
                   <span className="sr-only text-white"> GitHub </span>
                   <svg
-                    className="w-6 h-6 text-black hover:text-purple"
+                    className="w-6 h-6 text-white hover:text-purple"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
@@ -120,7 +153,7 @@ const Footer = () => {
                 >
                   <span className="sr-only"> Dribbble </span>
                   <svg
-                    className="w-6 h-6 text-black hover:text-purple"
+                    className="w-6 h-6 text-white hover:text-purple"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
@@ -134,10 +167,10 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-            <div className="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-4 ">
+            <div className="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 text-center lg:grid-cols-4 ">
               <div className="">
-                <p className="font-medium text-black ">Company</p>
-                <nav className="flex flex-col mt-4 space-y-2 text-sm  text-black">
+                <p className="font-medium text-white ">Company</p>
+                <nav className="flex flex-col mt-4 space-y-2 text-sm  text-white">
                   <Link href={"/"}>
                     {" "}
                     <span className="hover:opacity-75"> Home </span>
@@ -161,61 +194,28 @@ const Footer = () => {
                 </nav>
               </div>
               <div>
-                <p className="font-medium text-black">Services</p>
-                <nav className="flex flex-col mt-4 space-y-2 text-sm text-black">
-                  <Link href={"/services/seo"}>
-                    <span className="hover:opacity-75"> Screen Printing </span>
-                  </Link>
-
-                  <Link href={"/services/social"}>
-                    <span className="hover:opacity-75"> Emboridery </span>
-                  </Link>
-                  <Link href={"/services/ppc"}>
-                    <span className="hover:opacity-75">
-                      {" "}
-                      3D Puff Solutions{" "}
-                    </span>
-                  </Link>
-                  <Link href={"/services/affiliate"}>
-                    <span className="hover:opacity-75">
-                      {" "}
-                      Twill & Applique Services{" "}
-                    </span>
-                  </Link>
-                  <Link href={"/services/email"}>
-                    <span className="hover:opacity-75">
-                      {" "}
-                      Promotional Products{" "}
-                    </span>
-                  </Link>
-                  <Link href={"/services/webdesign"}>
-                    <span className="hover:opacity-75">
-                      {" "}
-                      Direct To Garment{" "}
-                    </span>
-                  </Link>
-                  <Link href={"/services/social"}>
-                    <span className="hover:opacity-75"> Sublimation </span>
-                  </Link>
+                <p className="font-medium text-white">Services</p>
+                <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
+                  {services.map((item) => (
+                    <Link href={`/services/${item.slug}`}>
+                      <span className="hover:opacity-75"> {item.title} </span>
+                    </Link>
+                  ))}
                 </nav>
               </div>
               <div>
-                <p className="font-medium text-black">Products</p>
-                <nav className="flex flex-col mt-4 space-y-2 text-sm text-black">
-                  <Link href={"/contact"}>
-                    <span className="hover:opacity-75"> Shirts </span>
-                  </Link>
-                  <Link href={"/faqs"}>
-                    <span className="hover:opacity-75"> Caps </span>
-                  </Link>
-                  <Link href={"/contact"}>
-                    <span className="hover:opacity-75"> Hoodies </span>
-                  </Link>
+                <p className="font-medium text-white">Products</p>
+                <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
+                  {cat.map((item) => (
+                    <Link href={`/products/${item.slug}`}>
+                      <span className="hover:opacity-75"> {item.title} </span>
+                    </Link>
+                  ))}
                 </nav>
               </div>
               <div>
-                <p className="font-medium text-black">Legal</p>
-                <nav className="flex flex-col mt-4 space-y-2 text-sm text-black">
+                <p className="font-medium text-white">Legal</p>
+                <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
                   <Link href={"/privacypolicy"}>
                     <span className="hover:opacity-75"> Privacy Policy </span>
                   </Link>
@@ -232,7 +232,13 @@ const Footer = () => {
             </div>
           </div>
 
-          <p className="mt-8 text-xs  text-black">© 2023 TEES WEATHER</p>
+          <p className="mt-8 text-xs  text-center text-white">
+            Copyright © All Rights Reserved @ Tees Weather 2024
+          </p>
+          <p className="mt-2 text-xs  text-center text-white">
+            This site is protected by reCAPTCHA and the Google Privacy Policy
+            and Terms of Service apply
+          </p>
         </div>
       </footer>
     </>

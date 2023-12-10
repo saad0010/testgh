@@ -26,32 +26,31 @@ const PrivacyPolicy = () => {
                 {/* Details 1 */}
 
                 <div className="col-span-4 text-lg font-semibold text-black">
-                  Digital Tech Services and its subsidiaries and affiliates
-                  (“We”, “Our”, “Us” or “PDM”) works to maintain a high standard
-                  of data privacy in accordance with your data protection rights
-                  under applicable law. The protection and proper use of the
-                  personal information that you entrust to Us is a
-                  responsibility We take seriously. This privacy notice explains
-                  what personal information We may collect through
-                  https://digitaltech.services/ (“Site”), how We may use it, and
-                  the rights that you have concerning that data (“Privacy
-                  Notice”).
+                  Tees Weather and its subsidiaries and affiliates (“We”, “Our”,
+                  “Us” or “PDM”) works to maintain a high standard of data
+                  privacy in accordance with your data protection rights under
+                  applicable law. The protection and proper use of the personal
+                  information that you entrust to Us is a responsibility We take
+                  seriously. This privacy notice explains what personal
+                  information We may collect through https://teesweather.com/
+                  (“Site”), how We may use it, and the rights that you have
+                  concerning that data (“Privacy Notice”).
                 </div>
                 {/* Details 2 */}
 
                 <div className="col-span-4 text-lg font-semibold text-black">
                   We provide access to our Site and related information,
-                  services and features, (“Services”) to you conditioned upon your acceptance of all
-                  terms, conditions, policies and notices stated in this Privacy
-                  Notice and our Terms of Use found here:
-                  https://digitaltech.services/terms/ (“Terms of
-                  Use”). By providing your Personal Information or using the
-                  Site you consent to the practices set forth in this Privacy
-                  Notice, the Terms of Use and to Our collection, processing,
-                  transfer or use of your Personal Information. If you do not
-                  consent to any collection, processing, transfer or use of such
-                  information, please do not use or access any part of the Site
-                  or submit Personal Information.
+                  services and features, (“Services”) to you conditioned upon
+                  your acceptance of all terms, conditions, policies and notices
+                  stated in this Privacy Notice and our Terms of Use found here:
+                  https://teesweather.com/terms/ (“Terms of Use”). By providing
+                  your Personal Information or using the Site you consent to the
+                  practices set forth in this Privacy Notice, the Terms of Use
+                  and to Our collection, processing, transfer or use of your
+                  Personal Information. If you do not consent to any collection,
+                  processing, transfer or use of such information, please do not
+                  use or access any part of the Site or submit Personal
+                  Information.
                 </div>
 
                 {/* Details 3 */}
@@ -132,7 +131,6 @@ const PrivacyPolicy = () => {
       </Container>
     </>
   );
-
 };
 
 export default PrivacyPolicy;

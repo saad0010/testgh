@@ -52,7 +52,7 @@ const Services = () => {
                   {item.desc}
                 </h1>
                 <div className="my-4">
-                  <div className="flex space-x-1 items-center">
+                  {/* <div className="flex space-x-1 items-center">
                     <span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +108,7 @@ const Services = () => {
                       </svg>
                     </span>
                     <p className="text-sm">{item.label2}</p>
-                  </div>
+                  </div> */}
                   <Link href={`/services/${item.slug}`}>
                     {" "}
                     <button className="flex  justify-center mt-4 text-sm w-full text-white bg-indigo-600 py-2 rounded-xl shadow-lg">

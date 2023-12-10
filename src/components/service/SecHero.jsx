@@ -54,9 +54,9 @@ const SecHero = (props) => {
                   >
                     <h3 className="items-center"> WORK WITH US</h3>
                   </Link> */}
-                  <Link href={"/contact"} className="w-full">
+                  <Link href={"/contact"} className="w-full text-right">
                     {" "}
-                    <button className="w-full px-4 text-sm  h-12 rounded-xl bg-purple-700 text-white uppercase font-medium hover:bg-black cursor-pointer duration-300">
+                    <button className="w-50 px-4 text-sm  h-12 rounded-xl bg-purple-700 text-white uppercase font-medium hover:bg-black cursor-pointer duration-300">
                       WORK WITH US
                     </button>
                   </Link>
