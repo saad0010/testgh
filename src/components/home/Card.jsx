@@ -5,8 +5,9 @@ import Title from "@/components/title/Title";
 
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { Image } from "next/image";
+
 import { IoArrowForwardOutline } from "react-icons/io5";
+import Image from "next/image";
 
 const Card = (props) => {
   const cardData = props.cardData;
@@ -24,10 +25,12 @@ const Card = (props) => {
                 {item.title}
               </h3>
               <div className="relative">
-                <img
+                <Image
                   className="w-full h-60 rounded-xl"
                   src={item.image}
                   alt="Colors"
+                  width={200}
+                  height={200}
                 />
               </div>
               <h1 className="mt-4  text-light tracking-widest  text-md text-center  cursor-pointer">

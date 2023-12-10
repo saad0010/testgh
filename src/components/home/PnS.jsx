@@ -33,11 +33,11 @@ const PnS = () => {
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-5">
       <div className="flex gap-6 items-center justify-center">
         <div className="grid-cols-1">
-          <div classname="flex-none w-48 relative">
+          <div className="flex-none w-48 relative">
             <Image
               src={image1}
-              alt
-              classname="absolute inset-0 w-full h-full object-cover"
+              alt="Styles"
+              className="absolute inset-0 w-full h-full object-cover"
               loading="lazy"
               width={200}
               height={200}
@@ -45,12 +45,12 @@ const PnS = () => {
           </div>
         </div>
         <div className="grid-cols-1">
-          <div classname="flex flex-wrap">
+          <div className="flex flex-wrap">
             <h2 className="text-2xl ml-24 font-semibold text-indigo-400">
               Styles
             </h2>
             {cat.map((item) => (
-              <ul className="ml-20">
+              <ul key={item._id} className="ml-20">
                 <Link href={`/products/${item.slug}`}>
                   <li
                     onMouseEnter={handleMouseEnter1(item.image)}
@@ -76,9 +76,9 @@ const PnS = () => {
           <h2 className="text-2xl font-semibold text-indigo-400">
             Add-on Services
           </h2>
-          <div classname="flex flex-wrap">
+          <div className="flex flex-wrap">
             {services.map((item) => (
-              <ul className="mr-20">
+              <ul key={item._id} className="mr-20">
                 <Link href={`/services/${item.slug}`}>
                   <li
                     onMouseEnter={handleMouseEnter(item.image)}
@@ -99,11 +99,11 @@ const PnS = () => {
           </div>
         </div>
         <div className="grid-cols-1">
-          <div classname="flex-none w-48 relative">
+          <div className="flex-none w-48 relative">
             <Image
               src={image}
               alt="Services"
-              classname="absolute inset-0 w-full h-full object-cover"
+              className="absolute inset-0 w-full h-full object-cover"
               loading="lazy"
               width={200}
               height={200}

@@ -5,7 +5,7 @@ import React from "react";
 import { items } from "./data.js";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { Image } from "next/image";
+import Image from "next/image";
 import { IoArrowForwardOutline } from "react-icons/io5";
 
 export const metadata = {
@@ -42,10 +42,12 @@ const Services = () => {
                   {item.title}
                 </h3>
                 <div className="relative">
-                  <img
+                  <Image
                     className="w-full h-60 rounded-xl"
                     src={item.image}
                     alt="Colors"
+                    width={100}
+                    height={100}
                   />
                 </div>
                 <h1 className="mt-4 text-gray-800 text-sm text-center font-bold cursor-pointer">

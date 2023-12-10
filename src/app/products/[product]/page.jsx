@@ -39,7 +39,7 @@ const page = ({ params }) => {
       <PageNav data={params.product} />
       <div className="md:flex md:items-center">
         <div className="w-full h-64 md:w-1/2 lg:h-96">
-          <img
+          <Image
             className="h-full w-full rounded-md object-cover max-w-lg mx-auto"
             src={data.images[0].src}
             // "https://images.unsplash.com/photo-1578262825743-a4e402caab76?ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80"
@@ -123,7 +123,7 @@ const page = ({ params }) => {
         </h3>
         <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-6">
           {data1.map((item) => (
-            <Link href={`/products/${item.slug}`}>
+            <Link key={item.id} href={`/products/${item.slug}`}>
               <div className="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
                 <div
                   className="flex items-end justify-end h-56 w-full bg-cover"

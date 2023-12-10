@@ -197,7 +197,7 @@ const Footer = () => {
                 <p className="font-medium text-white">Services</p>
                 <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
                   {services.map((item) => (
-                    <Link href={`/services/${item.slug}`}>
+                    <Link key={item._id} href={`/services/${item.slug}`}>
                       <span className="hover:opacity-75"> {item.title} </span>
                     </Link>
                   ))}
@@ -207,7 +207,7 @@ const Footer = () => {
                 <p className="font-medium text-white">Products</p>
                 <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
                   {cat.map((item) => (
-                    <Link href={`/products/${item.slug}`}>
+                    <Link key={item._id} href={`/products/${item.slug}`}>
                       <span className="hover:opacity-75"> {item.title} </span>
                     </Link>
                   ))}
