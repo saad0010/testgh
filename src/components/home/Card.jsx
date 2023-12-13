@@ -15,25 +15,25 @@ const Card = (props) => {
   return (
     <Container>
       <div className="min-h-screen bg-transparent flex justify-center  items-center ">
-        <div className="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-3 gap-8 space-y-4 md:space-y-0">
+        <div className="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-3 gap-8 space-y-0 md:space-y-0">
           {cardData?.map((item) => (
             <div
               key={item.id}
               className="max-w-sm bg--500 px-6 pt-6 pb-2 rounded-xl shadow-lg transform  hover:scale-105 transition duration-500 hover:shadow-purple-950 hover:border-solid"
             >
-              <h3 className="mb-3 text-lg text-center font-bold text-slat-400">
+              <h3 className="mb-3 text-sm md:text-lg text-center font-bold text-slat-400">
                 {item.title}
               </h3>
               <div className="relative">
                 <Image
-                  className="w-full h-60 rounded-xl"
+                  className="w-full h-52 md:h-60 "
                   src={item.image}
                   alt="Colors"
                   width={200}
                   height={200}
                 />
               </div>
-              <h1 className="mt-4  text-light tracking-widest  text-md text-center  cursor-pointer">
+              <h1 className="mt-4  text-light tracking-widest text-xs md:text-md text-center  cursor-pointer">
                 {item.desc}
               </h1>
               <div className="my-4 ">
@@ -99,7 +99,7 @@ const Card = (props) => {
                   className="flex justify-center"
                 >
                   {" "}
-                  <button className="flex mt-4 justify-center text-sm w-[50%] text-white bg-indigo-600 py-2 rounded-xl shadow-lg">
+                  <button className="flex mt-1 md:mt-4 justify-center text-xs md:text-sm w-[50%] text-white bg-black hover:bg-yellow-400 hover:text-black py-2 rounded-xl shadow-lg">
                     LEARN MORE{" "}
                     <IoArrowForwardOutline className="ml-2 mt-0.5 w-4 h-4" />
                   </button>

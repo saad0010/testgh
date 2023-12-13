@@ -16,7 +16,7 @@ const SecHero = (props) => {
     <>
       <div className="bg-transparent w-full  rounded-br-3xl px-4 relative">
         <Container>
-          <div className="text-black grid md:grid-cols-2 gap-20 place-items-center">
+          <div className="text-black grid md:grid-cols-2 gap-4 place-items-center">
             {/* left */}
             <div className="w-full relative flex justify-center items-center gap-6 overflow-hidden">
               <motion.div
@@ -32,19 +32,21 @@ const SecHero = (props) => {
                   height={500}
                   priority
                   objectFit="contain"
-                  className="w-100 rounded-2xl object-cover "
+                  className="w-100  object-cover "
                 />
               </motion.div>
             </div>
             {/* Right */}
-            <div className="flex flex-col gap-6 xl:gap-10">
+            <div className="flex flex-col gap-4 md:gap-6 xl:gap-10">
               <FadeIn>
-                <h1 className="text-2xl lg:text-3xl xl:text-3xl font-semibold">
+                <h1 className="text-lg md:text-2xl lg:text-3xl xl:text-3xl font-semibold">
                   {heading}
                 </h1>
               </FadeIn>
               <FadeIn>
-                <p className="text-xl  tracking-wide">{description}</p>
+                <p className=" text-sm md:text-xl  tracking-wide">
+                  {description}
+                </p>
               </FadeIn>
               <FadeIn>
                 <div className="w-full p-4 xl:p-6 bg-white rounded-3xl flex flex-col lg:flex-row text-black justify-between gap-5">
@@ -56,7 +58,7 @@ const SecHero = (props) => {
                   </Link> */}
                   <Link href={"/contact"} className="w-full text-right">
                     {" "}
-                    <button className="w-50 px-4 text-sm  h-12 rounded-xl bg-purple-700 text-white uppercase font-medium hover:bg-black cursor-pointer duration-300">
+                    <button className="w-50 px-4 text-xs md:text-sm  h-12 rounded-md bg-black text-white uppercase font-medium hover:bg-yellow-400 hover:text-black cursor-pointer duration-300">
                       WORK WITH US
                     </button>
                   </Link>

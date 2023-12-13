@@ -21,17 +21,17 @@ const Header = () => {
   }, [pathName]);
 
   return (
-    <div className="w-full h-20 border-b-[1px] border-gray-500 px-2 bg-white ">
+    <div className=" w-full h-20  border-gray-500 px-2 bg-white ">
       <div className="h-full max-w-screen-2xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <Link href={"/"} className="ml-4 relative group overflow-hidden">
           {/* <Image  src={logo}
                   alt="logoImg" className="flex-1 h-20"
                  /> */}
-          <p className="text-3xl  font-bold font-kalam uppercase text-indigo-700  group-hover:translate-x-0 transition-transform duration-700">
+          <p className="text-3xl  font-bold font-kalam uppercase text-black  group-hover:translate-x-0 transition-transform duration-700">
             TEES WEATHER
           </p>
-          <span className="absolute bottom-0 w-full h-[2px] inline-block bg-indigo-700 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-700"></span>
+          <span className="absolute bottom-0 w-full h-[2px] inline-block bg-black -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-700"></span>
         </Link>
         {/* Logo */}
 
@@ -89,20 +89,20 @@ const Header = () => {
               <Link key={item._id} href={item.link}>
                 <li
                   className={`${active === item.link && "text-black"}
-                  text-gray-600 text-black hover:text-indigo-700 cursor-pointer duration-300 group relative`}
+                  text-gray-600 text-black cursor-pointer duration-300 group relative`}
                 >
                   {item.title}
                   <span
                     className={`${
                       active === item.link && "scale-100"
-                    } absolute w-full scale-0 group-hover:scale-100 inline-block h-[2px] -bottom-[1px] left-0 bg-indigo-700 duration-500`}
+                    } absolute w-full scale-0 group-hover:scale-100 inline-block h-[2px] -bottom-[1px] left-0 bg-black duration-500`}
                   ></span>
                 </li>
               </Link>
             ))}
           </ul>
           <Link href={"/contact"}>
-            <button className="w-36 h-10 bg-indigo-700 text-white uppercase rounded hover:bg-purple-700 duration-300 tracking-wide">
+            <button className="w-36 h-10 bg-black text-white uppercase rounded hover:bg-yellow-400 hover:text-black duration-300 tracking-wide">
               GET A QUOTE
             </button>
           </Link>

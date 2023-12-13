@@ -9,12 +9,12 @@ const BecomClient = () => {
   return (
     // <div className="h-screen bg-black flex items-center">
 
-    <section className="mt-10 mb-10 bg-transparent w-full bg-cover bg-center py-32">
+    <section className="md:mt-10 mb-10 bg-transparent w-full bg-cover bg-center md:py-32">
       <div className="container mx-auto text-center text-black">
-        <h1 className="text-xl md:text-2xl font-medium mb-6">
+        <h1 className="text-md md:text-2xl font-medium mb-6">
           A B2B consultancy with expertise in
         </h1>
-        <p className=" text-4xl md:text-6xl mb-12 text-purple-800">
+        <p className=" text-3xl md:text-6xl mb-6 md:mb-12 text-yellow-400">
           <Typewriter
             words={[
               "Screen Printing",
@@ -36,7 +36,7 @@ const BecomClient = () => {
         <Link href={"/contact"}>
           <span
             href="#"
-            className="bg-purple-600 text-white text-sm py-2 px-8 md:text-lg md:py-4 md:px-12 rounded-full hover:bg-purple-950"
+            className="bg-black text-white text-xs py-2 px-8 md:text-lg md:py-4 md:px-12 rounded-full hover:bg-yellow-400 hover:text-black"
           >
             Book A 30 Minute Free Consultation
           </span>

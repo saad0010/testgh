@@ -3,15 +3,15 @@ import React from "react";
 
 const Review = () => {
   return (
-    <div className="pt-20">
-      <div className="grid grid-cols-1 md:grid-cols-2 mt-20">
-        <div className="p-10 md:pl-52 md:p-0">
+    <div className="pt-[14rem] sm:pt-[30rem]  md:pt-[32rem] lg:pt-[45rem] xl:pt-[58rem] xl:px-28 lg:ml-32">
+      <div className="grid grid-cols-1 md:grid-cols-2 mt-4">
+        <div className="p-10 sm:pl-52 md:p-0">
           <div class="relative flex w-full flex-col rounded-xl bg-slate-100 bg-clip-border text-gray-700 shadow-md">
             <div class="p-10">
-              <h5 class="mb-6 block font-sans text-3xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+              <h5 class="mb-6 block font-sans text-xl md:text-3xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                 Customer reviews
               </h5>
-              <p className="block mt-6 font-sans text-md font-light leading-relaxed text-inherit antialiased">
+              <p className="block mt-6 font-sans text-sm md:text-md font-light leading-relaxed text-inherit antialiased">
                 I used the online chat feature on their website to ask a few
                 questions, which lead to placing an order the same day. I used
                 their two day Lightning Service because the client needed shirts
@@ -87,19 +87,19 @@ const Review = () => {
             </div>
           </div>
         </div>
-        <div className="hidden md:block pt-10   pr-32">
+        <div className="hidden md:block pt-10   pr-32 lg:pr-0">
           <Image
             src="https://assets-global.website-files.com/5ccc8aa73871f9d12dc81c1b/5cf18dc3feecffea3f7e56c2_sendit.jpg"
             alt="review"
             width={300}
             height={300}
-            className="w-9/12  h-5/6  object-cover"
+            className="sm:w-9/12 md:w-10/12 lg:w-9/12  h-5/6   object-cover"
           />
         </div>
       </div>
 
-      <div className="text-center mt-1  p-9 md:pl-52 md:pr-52">
-        <h4 className="text-lg md:text-3xl">
+      <div className="text-center  md:mt-1 lg:mt-4 pl-2 pr-2 md:pl-52 md:pr-52">
+        <h4 className=" text-sm md:text-3xl">
           See what other people are saying about our custom apparel printing
         </h4>
 
@@ -148,9 +148,9 @@ const Review = () => {
           </div>
         </div>
 
-        <p className="text-2xl md:text-3xl mt-5">4.81 / 5.0</p>
+        <p className="text-xl md:text-3xl mt-5">4.81 / 5.0</p>
 
-        <button className="w-66 md:w-72 p-4 md:p-2 rounded-md mt-5 text-bold text-white text-sm md:text-xl bg-slate-600 hover:bg-indigo-400">
+        <button className="w-66 md:w-72 p-4 md:p-2 rounded-md mt-5 text-bold text-white hover:text-black text-xs md:text-xl bg-black hover:bg-yellow-400">
           READ 4,355 MORE REVIEWS
         </button>
       </div>

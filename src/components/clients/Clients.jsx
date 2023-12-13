@@ -26,20 +26,19 @@ const clients = [
 const Clients = () => {
   return (
     <>
-      <div className="mt-10  bg-transparent py-20">
+      <div className="md:mt-10   md:py-20 lg:py-6 bg-slate-100">
         <Container>
-          <div>
+          <div className="">
             <FadeIn>
               {" "}
-              <h2 className="text-center text-black text-4xl mb-9 font-semibold  tracking-wider">
+              <h2 className="text-center text-black text-xl md:text-4xl mb-4 md:mb-9 font-semibold  tracking-wider">
                 Marketing & Branding
               </h2>
             </FadeIn>
-            <FadeIn className="flex items-center gap-x-8">
-              <h2 className="text-center text-black text-xl font-semibold  tracking-wider">
-                Tees Weather supplies their services in Ontario, Canada. Our
-                team has extensive expertise in screen printing, embroidery, and
-                digitization. Our clients have been working with us for many
+            <FadeIn className="flex items-center md:gap-x-8">
+              <h2 className="text-center text-black text-sm md:text-xl   tracking-wider">
+                Our team has extensive expertise in screen printing, embroidery,
+                and digitization. Our clients have been working with us for many
                 years and are confident in our abilities.
               </h2>
               <div className="h-px flex-auto bg-black" />

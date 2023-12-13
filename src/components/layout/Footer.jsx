@@ -17,7 +17,7 @@ const Footer = () => {
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-3">
-        <div className="bg-yellow-400 pt-28">
+        <div className="bg-yellow-400 hidden md:block pt-28">
           <Image
             src={
               "https://assets-global.website-files.com/5ccc8aa73871f9d0b1c81c04/627a91ce499298ece437175b_Texture.svg"
@@ -28,16 +28,16 @@ const Footer = () => {
           />
         </div>
         <div className="bg-yellow-400 p-8 text-center">
-          <h3 className="text-4xl text-slate-700 font-semibold">
+          <h3 className="text-xl md:text-4xl text-slate-700 font-semibold">
             Ready to raise your t-shirt game ?
           </h3>
           <Link href={"/contact"}>
-            <button className="w-66 rounded-md mt-10 p-3 font-semibold text-white text-sm md:text-md bg-slate-600 hover:bg-indigo-400">
+            <button className="w-66 rounded-md mt-6 md:mt-10 p-2 md:p-3 font-semibold text-white text-xs md:text-sm  bg-black hover:bg-slate-500 hover:text-black">
               BEGIN YOUR ORDER
             </button>
           </Link>
         </div>
-        <div className="bg-yellow-400 flex pb-28 justify-end">
+        <div className="bg-yellow-400 md:flex hidden  md:pb-28 justify-end">
           <Image
             src={
               "https://assets-global.website-files.com/5ccc8aa73871f9d0b1c81c04/627a91cd45e8e89c26f7cac6_Texture%20(1).svg"
