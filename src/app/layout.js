@@ -4,7 +4,30 @@ import "./globals.css";
 import Footer from "@/components/layout/Footer";
 import BecomClient from "@/components/layout/BecomClient";
 
+{
+  /* <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"> */
+}
+
 export const metadata = {
+  icons: {
+    icon: [
+      {
+        type: "image/png",
+        url: "/favicon-32x32.png",
+        href: "/favicon-32x32.png",
+        sizes: "32x32",
+      },
+      {
+        type: "image/png",
+        url: "/favicon-16x16.png",
+        href: "/favicon-16x16.png",
+        sizes: "16x16",
+      },
+    ],
+  },
+
   title:
     "TEES WEATHER : CUSTOM CLOTHING MANUFACTURER | PRINTING SERVICES | PERSONALIZED CUSTOM T-SHIRTS",
 

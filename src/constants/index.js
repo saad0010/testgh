@@ -13,19 +13,19 @@ export const cat = [
     slug: "t-shirts",
     // image:
     //   "https://assets-global.website-files.com/5ccc8aa73871f9d0b1c81c04/5cfe97c2b4e53beb6d4389a7_crew.jpg",
-    image: "/t.jpeg",
+    image: "/st1.jpg",
   },
   {
     _id: 2002,
     title: "Polos",
     slug: "polos",
-    image: "/polo.jpg",
+    image: "/st4.jpg",
   },
   {
     _id: 2003,
     title: "Long Sleeves",
     slug: "long-sleeves",
-    image: "/l.jpeg",
+    image: "/st3.jpg",
     // image:
     // "https://assets-global.website-files.com/5ccc8aa73871f9d0b1c81c04/5cfea3d05adaf6fa98fe7487_long-sleeve.jpg",
   },
@@ -41,13 +41,13 @@ export const cat = [
     _id: 2005,
     title: "Head Wear",
     slug: "head-wear",
-    image: "/head.jpg",
+    image: "/st5.jpg",
   },
   {
     _id: 2006,
     title: "Pants",
     slug: "pants",
-    image: "/p.jpeg",
+    image: "/st6.jpg",
   },
 ];
 
@@ -56,15 +56,13 @@ export const services = [
     _id: 3001,
     title: "Patches",
     slug: "patches",
-    image:
-      "https://assets-global.website-files.com/5ccc8aa73871f9d0b1c81c04/5d278425903a5a59dbea3044_products-tag-printing.jpg",
+    image: "/a1.jpg",
   },
   {
     _id: 3002,
     title: "Embroidery",
     slug: "embroidery",
-    image:
-      "https://assets-global.website-files.com/5ccc8aa73871f9d0b1c81c04/5d278466903a5a5672ea3216_products-hem-tags.jpg",
+    image: "/a2.png",
   },
   {
     _id: 3003,
@@ -76,18 +74,18 @@ export const services = [
     _id: 3004,
     title: "Tote Bags",
     slug: "tote-bags",
-    image: "/bag.jpg",
+    image: "/a4.jpg",
   },
   {
     _id: 3005,
     title: "Aprons",
     slug: "aprons",
-    image: "/appron.jpg",
+    image: "/a5.jpg",
   },
   {
     _id: 3006,
     title: "Promotional Product",
     slug: "promotional-product",
-    image: "/pp.jpg",
+    image: "/a6.jpg",
   },
 ];

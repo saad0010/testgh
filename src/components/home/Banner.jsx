@@ -6,13 +6,13 @@ const Banner = () => {
   return (
     <div className="w-full bg-transparent">
       <div className="grid grid-cols-1 max-w-screen ">
-        <div className="relative h-52 sm:h-80 md:h-96 lg:h-screen  overflow-hidden">
+        <div className="relative h-52 sm:h-80 md:h-[32rem] lg:h-fit xl:h-screen  overflow-hidden">
           <video
             autoPlay
             loop
             muted
             playsInline
-            className="absolute -z-10 max-h-screen   w-min  "
+            className="absolute -z-10 max-h-screen   md:w-screen  "
           >
             <source src="/banner.mp4" type="video/mp4" />
             Your browser does not support the video tag.

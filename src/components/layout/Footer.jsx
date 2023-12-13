@@ -166,6 +166,22 @@ const Footer = () => {
                   </svg>
                 </a>
               </div>
+              <div className="flex p-10 gap-6 items-center">
+                <Image
+                  src={"/paypal.png"}
+                  alt="paypal"
+                  width={128}
+                  height={120}
+                  className="rounded-full"
+                />
+                <Image
+                  src={"/btc.png"}
+                  alt="btc"
+                  className="bg-white rounded-full"
+                  width={72}
+                  height={73}
+                />
+              </div>
             </div>
             <div className="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 text-center lg:grid-cols-4 ">
               <div className="">

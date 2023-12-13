@@ -3,7 +3,7 @@ import React from "react";
 
 const Review = () => {
   return (
-    <div className="pt-[14rem] sm:pt-[30rem]  md:pt-[32rem] lg:pt-[45rem] xl:pt-[58rem] xl:px-28 lg:ml-32">
+    <div className="pt-[20rem] sm:pt-[30rem]  md:pt-[42rem] lg:pt-[50rem] xl:pt-[68rem] xl:px-28 lg:ml-32">
       <div className="grid grid-cols-1 md:grid-cols-2 mt-4">
         <div className="p-10 sm:pl-52 md:p-0">
           <div class="relative flex w-full flex-col rounded-xl bg-slate-100 bg-clip-border text-gray-700 shadow-md">
