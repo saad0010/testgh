@@ -28,7 +28,7 @@ const Banner = () => {
                   Tees Weather: the # 1 print-on-demand partner
                 </p>
                 <h1 className="mt-4  sm:mt-20 md:mt-1 lg:mt-10 text-[1.2rem] sm:text-[2rem] md:text-[3.2rem] font-semibold s,leading-[1.5rem] sm:leading-[2.5rem] md:leading-[4rem] tracking-tight text-white">
-                  Custom <br /> Patches & Apparels
+                  Custom <br /> Apparels & Patches
                 </h1>
                 <p className="mt-2 hidden lg:block md:mt-2 lg:mt-10 text-[.8rem] md:text-lg leading-relaxed text-white">
                   Guaranted Accuracy , Quality and Delivery. Tees Weather makes
@@ -77,8 +77,8 @@ const Banner = () => {
             Low Minimums
           </p>
           <p className="mt-2 text-xs md:text-sm text-slate-500">
-            Looking for quality apparel but dont need a large bulk order? Our
-            minimum is only 20 units.
+            Looking for quality apparel but dongit t need a large bulk order?
+            Our minimum is only 20 units.
           </p>
         </div>
         <div className="p-4 md:p-10 flex flex-col items-center text-center group     hover:bg-slate-50 cursor-pointer">
