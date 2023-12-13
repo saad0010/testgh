@@ -77,7 +77,7 @@ const Banner = () => {
             Low Minimums
           </p>
           <p className="mt-2 text-xs md:text-sm text-slate-500">
-            Looking for quality apparel but don't need a large bulk order? Our
+            Looking for quality apparel but dont need a large bulk order? Our
             minimum is only 20 units.
           </p>
         </div>
