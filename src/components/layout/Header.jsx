@@ -102,8 +102,8 @@ const Header = () => {
             ))}
           </ul>
           <Link href={"/contact"}>
-            <button className="w-36 h-10 bg-black text-white uppercase rounded hover:bg-yellow-400 hover:text-black duration-300 tracking-wide">
-              GET A QUOTE
+            <button className="p-1 w-40 h-10  bg-yellow-400 italic  text-black uppercase rounded hover:bg-black hover:text-white duration-300 tracking-wide">
+              START A QUOTE +
             </button>
           </Link>
         </div>

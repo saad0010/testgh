@@ -5,7 +5,7 @@ import { AiOutlineRightSquare } from "react-icons/ai";
 
 const NewCard = ({ title, image, p, p1 }) => {
   return (
-    <div className=" md:pt-32 lg:pt-10 lg:pb-10 lg:mt-4  bg-slate-100">
+    <div className=" md:pt-32 lg:pt-10 lg:pb-10 lg:mt-4 pb-4  bg-slate-100">
       <div className="grid grid-cols-1 md:grid-cols-3">
         <div className="hidden lg:block lg:ml-14 md:mt-40">
           <div className="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
@@ -50,7 +50,7 @@ const NewCard = ({ title, image, p, p1 }) => {
       </div>
 
       <div className="text-center mt-4">
-        <button className="w-66 rounded-md mt-1 p-3 font-semibold text-white hover:text-black text-xs md:text-md bg-black hover:bg-yellow-400">
+        <button className="w-66 rounded mt-1 p-3 font-semibold text-white hover:text-black text-xs md:text-sm bg-black hover:bg-yellow-400">
           SEE HOW WE DO IT
         </button>
       </div>

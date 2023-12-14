@@ -9,6 +9,7 @@ import PnS from "@/components/home/PnS";
 import Review from "@/components/home/Review";
 import NewCard from "@/components/home/NewCard";
 import DBanner from "@/components/home/DBanner";
+import Slider from "@/components/Sliders/Slider";
 const cardData = [
   {
     id: 1,
@@ -83,7 +84,10 @@ export default function Home() {
     <main className="bg-transparent ">
       <Banner />
       <PnS />
-      <DBanner />
+      {/* <DBanner /> */}
+      <div className="p-4 mt-10">
+        <Slider />
+      </div>
       <Review />
       <NewCard
         title={"Don't settle for custom shirts no one will wear."}
@@ -123,7 +127,7 @@ export default function Home() {
         />
       </div>
       {/* <div className="h-px flex-auto mx-20 mt-20  bg-black" /> */}
-      <Clients />
+      {/* <Clients /> */}
 
       {/* <div className="h-px flex-auto mx-20  bg-black" /> */}
     </main>

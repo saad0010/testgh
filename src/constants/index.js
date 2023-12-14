@@ -89,3 +89,21 @@ export const services = [
     image: "/a6.jpg",
   },
 ];
+
+export const dbanner = [
+  {
+    _id: 5001,
+    slug: "custom shirt printing for every industy",
+    image: "/db1.jpg",
+  },
+  {
+    _id: 5003,
+    slug: "custom shirt printing for every industy",
+    image: "/db2.png",
+  },
+  {
+    _id: 5002,
+    slug: "custom shirt printing for every industy",
+    image: "/db3.jpg",
+  },
+];

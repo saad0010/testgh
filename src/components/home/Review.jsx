@@ -3,7 +3,8 @@ import React from "react";
 
 const Review = () => {
   return (
-    <div className="pt-[20rem] sm:pt-[30rem]  md:pt-[42rem] lg:pt-[50rem] xl:pt-[68rem] xl:px-28 lg:ml-32">
+    // pt-[20rem] sm:pt-[30rem]  md:pt-[42rem] lg:pt-[50rem] xl:pt-[78rem] xl:px-28 lg:ml-32
+    <div className="pt-[0rem] sm:pt-[20rem]  md:pt-[22rem] lg:pt-[30rem] xl:pt-[0rem] xl:px-28 lg:ml-32">
       <div className="grid grid-cols-1 md:grid-cols-2 mt-4">
         <div className="p-10 sm:pl-52 md:p-0">
           <div class="relative flex w-full flex-col rounded-xl bg-slate-100 bg-clip-border text-gray-700 shadow-md">
@@ -150,7 +151,7 @@ const Review = () => {
 
         <p className="text-xl md:text-3xl mt-5">4.81 / 5.0</p>
 
-        <button className="w-66 md:w-72 p-4 md:p-2 rounded-md mt-5 text-bold text-white hover:text-black text-xs md:text-xl bg-black hover:bg-yellow-400">
+        <button className="w-66 md:w-72 p-4 md:p-4 rounded mt-5  text-white hover:text-black text-xs md:text-[1rem] bg-black hover:bg-yellow-400">
           READ 4,355 MORE REVIEWS
         </button>
       </div>

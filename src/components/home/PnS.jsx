@@ -28,14 +28,14 @@ const PnS = () => {
     };
   }
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-5">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-5 ">
       <div className="flex gap-6  justify-center">
         <div className="grid-cols-1">
-          <div className="flex-none w-48 relative">
+          <div className="flex-none w-48 relative lg:ml-20">
             <Image
               src={image1}
               alt="Styles"
-              className="absolute inset-0 w-full object-cover"
+              className="absolute inset-0 w-full object-fill"
               loading="lazy"
               width={200}
               height={200}
@@ -44,7 +44,7 @@ const PnS = () => {
         </div>
         <div className="grid-cols-1">
           <div className=" flex-wrap">
-            <h2 className="text-sm md:text-2xl ml-4 sm:ml-24 md:ml-10 lg:ml-14 font-semibold text-black">
+            <h2 className="text-sm md:text-lg ml-4 sm:ml-24 md:ml-10 lg:ml-44 font-semibold text-slate-400">
               Styles
             </h2>
             {cat.map((item) => (
@@ -52,7 +52,7 @@ const PnS = () => {
                 <Link href={`/products/${item.slug}`}>
                   <li
                     onMouseEnter={handleMouseEnter1(item.image)}
-                    className="mt-4 mr-6 text-center  text-sm md:text-lg font-semibold text-slate-600 hover:text-yellow-400 cursor-pointer duration-300 group relative"
+                    className="mt-4 mr-6 text-center  text-sm md:text-lg lg:ml-32 text-slate-700 hover:text-slate-400 cursor-pointer duration-300 group relative"
                   >
                     {/* <h2
                      className="mt-4 mr-6 hover:text-indigo-700 cursor-pointer duration-300 group relative"
@@ -71,7 +71,7 @@ const PnS = () => {
       </div>
       <div className="flex gap-6 sm:mt-10 md:mt-0 justify-center">
         <div className="grid-cols-1 ">
-          <h2 className="ml-4 text-sm md:text-2xl font-semibold text-black">
+          <h2 className="ml-4 text-sm md:text-lg font-semibold text-slate-400">
             Add-on Services
           </h2>
           <div className=" flex-wrap">
@@ -80,7 +80,7 @@ const PnS = () => {
                 <Link href={`/services/${item.slug}`}>
                   <li
                     onMouseEnter={handleMouseEnter(item.image)}
-                    className="mt-4 sm:mr-6 md:mr-1 text-center text-sm md:text-lg font-semibold text-slate-600 hover:text-yellow-400 cursor-pointer duration-300 group relative"
+                    className="mt-4 sm:mr-6 md:mr-20 text-center text-sm md:text-lg  text-slate-700 hover:text-slate-400 cursor-pointer duration-300 group relative"
                   >
                     {/* <h2
                     className="mt-4 mr-6 hover:text-indigo-700 cursor-pointer duration-300 group relative"
@@ -97,7 +97,7 @@ const PnS = () => {
           </div>
         </div>
         <div className="grid-cols-1">
-          <div className="flex-none w-48 mr-3 md:mr-0 relative">
+          <div className="flex-none w-48 mr-3 md:mr-32 relative">
             <Image
               src={image}
               alt="Services"

@@ -99,7 +99,7 @@ const Card = (props) => {
                   className="flex justify-center"
                 >
                   {" "}
-                  <button className="flex mt-1 md:mt-4 justify-center text-xs md:text-sm w-[50%] text-white bg-black hover:bg-yellow-400 hover:text-black py-2 rounded-xl shadow-lg">
+                  <button className="flex mt-1 md:mt-4 justify-center text-xs md:text-sm w-[50%] text-white bg-black hover:bg-yellow-400 hover:text-black py-2 rounded shadow-lg">
                     LEARN MORE{" "}
                     <IoArrowForwardOutline className="ml-2 mt-0.5 w-4 h-4" />
                   </button>

@@ -37,9 +37,9 @@ const Banner = () => {
                 <div className=" flex items-center justify-center gap-4 mt-5 mb-5">
                   <Link
                     href={"/products"}
-                    className="transform rounded-md bg-black hover:bg-yellow-400 px-2 md:px-5 md:mt-5 py-1 md:py-3 text-xs sm:text-md lg:text-lg font-medium text-white hover:text-black transition-colors "
+                    className="transform rounded bg-yellow-400 hover:bg-black px-2 md:px-5 md:mt-5 py-1 md:py-3  text-[.6rem] md:text-sm font-semibold  text-black hover:text-white transition-colors "
                   >
-                    SHOP NOW
+                    CONTACT A PRINTING PRO
                   </Link>
                 </div>
               </div>
@@ -49,7 +49,7 @@ const Banner = () => {
       </div>
 
       {/* Services */}
-      <div className="grid mb-10 md:mt-12 lg:mt-2 grid-cols-1 md:grid-cols-4 group bg-white shadow-xl shadow-neutral-100 border ">
+      <div className="grid mb-10 md:mt-12 lg:mt-10 grid-cols-1 md:grid-cols-4 group bg-white shadow-xl shadow-neutral-100 border ">
         <div className="p-4 md:p-10 flex flex-col items-center text-center group     hover:bg-slate-50 cursor-pointer">
           {/* <span className=" p-2 md:p-5 rounded-full bg-indigo-500 text-white shadow-lg shadow-indigo-200">
             <svg

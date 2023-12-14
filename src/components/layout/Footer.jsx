@@ -28,7 +28,7 @@ const Footer = () => {
           />
         </div>
         <div className="bg-yellow-400 p-8 text-center">
-          <h3 className="text-xl md:text-4xl text-slate-700 font-semibold">
+          <h3 className="text-lg md:text-4xl text-slate-700 font-semibold">
             Ready to raise your t-shirt game ?
           </h3>
           <Link href={"/contact"}>
@@ -172,12 +172,12 @@ const Footer = () => {
                   alt="paypal"
                   width={128}
                   height={120}
-                  className="rounded-full"
+                  className="rounded-full w-20"
                 />
                 <Image
                   src={"/btc.png"}
                   alt="btc"
-                  className="bg-white rounded-full"
+                  className="bg-white rounded-full w-12"
                   width={72}
                   height={73}
                 />
