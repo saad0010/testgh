@@ -33,7 +33,7 @@ const Card = (props) => {
                   height={200}
                 />
               </div>
-              <h1 className="mt-4  text-light tracking-widest text-[.7rem] md:text-md text-center  cursor-pointer">
+              <h1 className="mt-4  text-light tracking-widest text-[.7rem] md:text-md text-left  cursor-pointer">
                 {item.desc}
               </h1>
               <div className="my-4 ">

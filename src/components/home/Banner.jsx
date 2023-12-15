@@ -8,7 +8,6 @@ const Banner = () => {
       <div className="grid grid-cols-1 max-w-screen ">
         <div className="relative xs:h-48 sm:h-80 md:h-[32rem] lg:h-fit xl:h-[81vh]  overflow-hidden">
           <video
-            disablepictureinpicture
             autoPlay
             loop
             muted
@@ -38,8 +37,8 @@ const Banner = () => {
                 </p>
                 <div className=" flex items-center justify-center gap-4 mt-5 mb-5">
                   <Link
-                    href={"/products"}
-                    className="transform font-libre rounded bg-yellow-400 hover:bg-black px-2 md:px-5 md:mt-5 py-1 md:py-3  text-[.4rem] md:text-[.9rem] font-[900]  text-black hover:text-white transition-colors "
+                    href={"/contact"}
+                    className="transform font-mirza rounded bg-yellow-400 hover:bg-black px-2 md:px-5 md:mt-5 py-1 md:pt-3  text-[.4rem] md:text-[1rem] font-[900]  text-black hover:text-white transition-colors "
                   >
                     CONTACT A PRINTING PRO
                   </Link>

@@ -35,7 +35,7 @@ const cardData = [
     id: 3,
     title: "All-Over Sublimation Printing",
     slug: "sublimationprinting",
-    desc: "With Affix’s all-over sublimation printing, bring out your creativity. We make every square inch of your clothing into a vivid, picture-perfect canvas. Our cutting-edge sublimation technique ensures durable, crisp prints that distinguish your business. Uncover boundless opportunities and create a lasting impact on your clientele.",
+    desc: "All-over sublimation printing, bring out your creativity. We make every square inch of your clothing into a vivid, picture-perfect canvas. Our cutting-edge sublimation technique ensures durable, crisp prints that distinguish your business. Uncover boundless opportunities and create a lasting impact on your clientele.",
     label: "24/7 Support",
     label1: " Fast Delivery",
     label2: "High Standards",

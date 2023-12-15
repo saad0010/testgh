@@ -55,7 +55,7 @@ const PnS = () => {
               </h2>
               {cat.map((item) => (
                 <ul key={item._id} className="sm:ml-20 md:ml-8">
-                  <Link href={`/products/${item.slug}`}>
+                  <Link href={`/products`}>
                     <li
                       onMouseEnter={handleMouseEnter1(item.image)}
                       className="mt-4 md:mr-6 text-center  text-[.7rem] md:text-[.9rem] font-libre lg:ml-10 text-black hover:text-slate-400 cursor-pointer duration-300 group relative"

@@ -47,7 +47,7 @@ const Services = () => {
             {data.map((item) => (
               <div key={item.id}>
                 <Link href={`/services/${item.slug}`}>
-                  <div class="relative flex max-w-[24rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
+                  <div className="relative flex max-w-[24rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
                     <div>
                       <div className="relative m-0 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none">
                         <Image

@@ -99,7 +99,7 @@ const Sliding = () => {
                   </p>
                   <Link
                     href={"/contact"}
-                    className="transform rounded-md px-2 py-2 text-[.5rem] md:text-sm  font-libre lg:px-5 lg:py-3 lg:font-medium  text-black transition-colors bg-yellow-400 hover:bg-black hover:text-white"
+                    className="transform rounded-md px-2 pt-2 text-[.5rem] md:text-sm  font-mirza lg:px-5 lg:pt-3 lg:pb-2 lg:font-medium  text-black transition-colors bg-yellow-400 hover:bg-black hover:text-white"
                   >
                     CONTACT US
                   </Link>

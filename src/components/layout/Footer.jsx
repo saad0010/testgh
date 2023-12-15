@@ -63,7 +63,7 @@ const Footer = () => {
                 digitizing companies in United States
               </p>
               <p className="max-w-xs font-mirza text-white mt-4 text-xl font-bold">
-                +1 234 456 7890
+                +1 (845) 316 8305
               </p>
               <p className="max-w-xs font-mirza text-white mt-4 text-xl font-bold">
                 sales@teesweather.com
@@ -238,7 +238,7 @@ const Footer = () => {
                 <p className="text-md text-yellow-500">Products</p>
                 <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
                   {cat.map((item) => (
-                    <Link key={item._id} href={`/products/${item.slug}`}>
+                    <Link key={item._id} href={`/products?${item.slug}`}>
                       <span className="hover:opacity-75 font-mirza text-lg">
                         {" "}
                         {item.title}{" "}

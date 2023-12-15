@@ -44,6 +44,8 @@ const page = ({ params }) => {
             src={data.images[0].src}
             // "https://images.unsplash.com/photo-1578262825743-a4e402caab76?ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80"
             alt={data.title}
+            width={400}
+            height={400}
           />
         </div>
         <div className="w-full max-w-lg mx-auto mt-5 md:ml-8 md:mt-0 md:w-1/2">

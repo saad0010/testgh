@@ -7,15 +7,15 @@ const Banner = (props) => {
   const description = props.p;
   const description1 = props.p1;
   const image = props.image;
+  const key = props.key;
   let img = props.images;
 
-  console.log(img);
   return (
     <div className="">
-      <section class="w-screen h-auto md:h-[30rem]">
+      <section className="w-screen h-auto md:h-[30rem]">
         <Image
           src={image}
-          class="-z-10  object-cover  w-screen lg:w-full md:h-full"
+          className="-z-10  object-cover  w-screen lg:w-full md:h-full"
           alt="Image alt text"
           width={400}
           height={400}
@@ -33,8 +33,11 @@ const Banner = (props) => {
       </div>
 
       <div className="px-8 py-10 lg:px-80 lg:py-20">
-        <p className="leading-8 font-libre">{description}</p>
-        <p className="mt-10 leading-8 font-libre">{description1}</p>
+        <p className="leading-8 font-libre">
+          {description} <br />
+          <br /> {description1}
+        </p>
+        {/* <p className="mt-10 leading-8 font-libre"></p> */}
 
         {img.map((item) => (
           <div key={item.id} className="mt-24">
@@ -54,7 +57,7 @@ const Banner = (props) => {
             <summary className="flex gap-6 justify-left items-center bg-slate-200 p-4 md:p-4 w-full rounded text-gray-600  font-medium cursor-pointer list-none">
               <span className="transition  group-open:rotate-180">
                 <svg
-                  class="w-6 h-6 text-gray-800 dark:text-yellow-500"
+                  className="w-6 h-6 text-gray-800 dark:text-yellow-500"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -63,9 +66,9 @@ const Banner = (props) => {
                 >
                   <path
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="3"
                     d="M9 1v16M1 9h16"
                   />
                 </svg>
@@ -74,7 +77,7 @@ const Banner = (props) => {
                 Details
               </span>
             </summary>
-            <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
+            <section className="text-neutral-600 mt-3 group-open:animate-fadeIn">
               <div className="px-4 my-10  pb-8">
                 <h2 className=" text-lg  font-libre text-black">
                   Additional Turnaround Time
@@ -104,7 +107,7 @@ const Banner = (props) => {
                   optional be left off if desired.
                 </p>
               </div>
-            </p>
+            </section>
           </details>
         </div>
         <div className="py-5">
@@ -112,7 +115,7 @@ const Banner = (props) => {
             <summary className="flex gap-6 justify-left bg-slate-200 p-4 w-full rounded text-gray-600 items-center font-medium cursor-pointer list-none">
               <span className="transition  group-open:rotate-180">
                 <svg
-                  class="w-6 h-6 text-gray-800 dark:text-yellow-500"
+                  className="w-6 h-6 text-gray-800 dark:text-yellow-500"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -121,9 +124,9 @@ const Banner = (props) => {
                 >
                   <path
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="3"
                     d="M9 1v16M1 9h16"
                   />
                 </svg>

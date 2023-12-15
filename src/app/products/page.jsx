@@ -1,3 +1,4 @@
+"use client";
 import Banner from "@/components/products/Banner";
 import Hero from "@/components/products/Hero";
 import Listing from "@/components/products/Listing";
@@ -8,7 +9,7 @@ import PageNav from "@/components/layout/PageNav.jsx";
 
 const getData = () => {
   const data = items;
-  console.log(data);
+  //console.log(data);
 
   if (data) {
     return data;
@@ -18,6 +19,12 @@ const getData = () => {
 };
 
 const page = () => {
+  // const pathname = usePathname();
+  // let parts = pathname.split("?");
+  // let paths = parts.filter((str) => str !== "");
+
+  console.log(paths);
+  //console.log(params);
   const data = getData();
   return (
     <>

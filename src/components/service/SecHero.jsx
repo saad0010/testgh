@@ -31,7 +31,6 @@ const SecHero = (props) => {
                   width={500}
                   height={500}
                   priority
-                  objectFit="contain"
                   className="w-100  object-cover "
                 />
               </motion.div>
@@ -58,7 +57,7 @@ const SecHero = (props) => {
                   </Link> */}
                   <Link href={"/contact"} className="w-full text-right">
                     {" "}
-                    <button className="w-20 px-1 text-[.5rem]   h-8 rounded-md bg-black text-white uppercase font-medium hover:bg-yellow-400 hover:text-black cursor-pointer duration-300">
+                    <button className="w-28 px-1 text-[.7rem]   h-8 rounded-md bg-black text-white uppercase font-medium hover:bg-yellow-400 hover:text-black cursor-pointer duration-300">
                       WORK WITH US
                     </button>
                   </Link>

@@ -16,6 +16,10 @@ Product Design Mobile & WEb Inline Components
 
 ---
 
+16/12/23
+
+## Ghayas Video
+
 # remove white space from video surrounds ----------------
 
 # add pause buttom video
@@ -27,3 +31,11 @@ Product Design Mobile & WEb Inline Components
 # dbanner make it small --------------
 
 # change tshirt pic check 3:46 & before
+
+16/12/23
+
+# Make form submit to send email
+
+# about pages
+
+# product pages

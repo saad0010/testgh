@@ -40,8 +40,8 @@ const NewCard = ({ title, image, p, p1 }) => {
             className="w-full sm:pl-10 sm:pr-10 sm:pt-6 sm:pb-4 md:p-0 sm:w-11/12   "
           />
         </div>
-        <div className="pl-12 w-72 sm:w-96 md:pl-0 lg:pr-12">
-          <h3 className="text-bold lg:ml-[-6rem] font-mirza lg:pr-50 lg:mt-4 text-2xl  md:text-4xl lg:text-6xl">
+        <div className="pl-12 mt-2 md:mt-0  w-96 lg:w-72 sm:w-96 md:pl-0 lg:pr-12">
+          <h3 className="text-bold  font-mirza lg:pr-50 lg:mt-4 text-3xl  md:text-4xl lg:text-5xl">
             {title}
           </h3>
           <p className="mt-4 text-sm font-light md:mt-10 font-libre md:text-[.9rem] leading-6">
