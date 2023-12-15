@@ -39,17 +39,17 @@ const SecHero = (props) => {
             {/* Right */}
             <div className="flex flex-col gap-4 md:gap-6 xl:gap-10">
               <FadeIn>
-                <h1 className="text-lg md:text-2xl lg:text-3xl xl:text-3xl font-semibold">
+                <h1 className="text-lg md:text-2xl lg:text-3xl xl:text-3xl font-mirza font-semibold">
                   {heading}
                 </h1>
               </FadeIn>
               <FadeIn>
-                <p className=" text-sm md:text-xl  tracking-wide">
+                <p className=" text-sm md:text-lg font-libre tracking-wide">
                   {description}
                 </p>
               </FadeIn>
               <FadeIn>
-                <div className="w-full p-4 xl:p-6 bg-white rounded-3xl flex flex-col lg:flex-row text-black justify-between gap-5">
+                <div className="w-full p-4 xl:p-6 bg-white text-sm rounded-3xl font-libre flex flex-col lg:flex-row text-black justify-between gap-5">
                   {/* <Link
                     // className="w-full h-12 justify-center  rounded-xl   bg-black text-white uppercase font-medium hover:bg-green-950 cursor-pointer duration-300"
                     href={"/contact"}
@@ -58,7 +58,7 @@ const SecHero = (props) => {
                   </Link> */}
                   <Link href={"/contact"} className="w-full text-right">
                     {" "}
-                    <button className="w-50 px-4 text-xs md:text-sm  h-12 rounded-md bg-black text-white uppercase font-medium hover:bg-yellow-400 hover:text-black cursor-pointer duration-300">
+                    <button className="w-20 px-1 text-[.5rem]   h-8 rounded-md bg-black text-white uppercase font-medium hover:bg-yellow-400 hover:text-black cursor-pointer duration-300">
                       WORK WITH US
                     </button>
                   </Link>

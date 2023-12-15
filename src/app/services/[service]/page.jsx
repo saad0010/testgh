@@ -7,6 +7,7 @@ import { items } from "./data.js";
 import { notFound } from "next/navigation";
 import Cards from "@/components/service/Cards.jsx";
 import SecHero from "@/components/service/SecHero.jsx";
+import Banner from "@/components/service/Banner.jsx";
 
 const getData = (service) => {
   const data = items[service];
@@ -27,22 +28,18 @@ const Service = ({ params }) => {
     <>
       <Container>
         {data.map((item) => (
-          <div className="gap-12" key={item.id}>
-            <Hero
-              heading={item.desc}
-              description={item.dat1}
-              image={item.image}
-            />
-            <Cards carddata={item.kpoint} />
-            <SecHero
-              heading={item.label}
-              description={item.dat}
-              image={item.image1}
-            />
-          </div>
+          <Banner
+            key={item._id}
+            title={item.title}
+            label={item.label1}
+            p={item.desc}
+            p1={item.label}
+            image={item.image}
+            images={item.images}
+          />
         ))}
       </Container>
-      <div className="h-px flex-auto mx-20 mt-10 bg-white" />
+      {/* <div className="h-px flex-auto mx-20 mt-10 bg-white" /> */}
     </>
   );
 };

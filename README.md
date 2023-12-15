@@ -13,3 +13,17 @@ https://youtu.be/x2xEmvZEThM?list=PLOl4xN4eJVEPU90Yr7ENYu2OUmkURg9xe&t=6176
 8/12/23
 
 Product Design Mobile & WEb Inline Components
+
+---
+
+# remove white space from video surrounds ----------------
+
+# add pause buttom video
+
+# add background color in Pns ------------------
+
+# add our product Pns ----------------
+
+# dbanner make it small --------------
+
+# change tshirt pic check 3:46 & before

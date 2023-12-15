@@ -33,73 +33,16 @@ const Card = (props) => {
                   height={200}
                 />
               </div>
-              <h1 className="mt-4  text-light tracking-widest text-xs md:text-md text-center  cursor-pointer">
+              <h1 className="mt-4  text-light tracking-widest text-[.7rem] md:text-md text-center  cursor-pointer">
                 {item.desc}
               </h1>
               <div className="my-4 ">
-                {/* <div className="flex space-x-1 items-center justify-center">
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-4 w-4 text-indigo-600 mb-1.5"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
-                    </svg>
-                  </span>
-                  <p className="text-sm  ">{item.label}</p>
-                </div>
-                <div className="flex space-x-1 items-center mt-1 justify-center">
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-4 w-4 text-indigo-600 mb-1.5"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M16 4v12l-4-2-4 2V4M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-                      />
-                    </svg>
-                  </span>
-                  <p className="text-sm ">{item.label1}</p>
-                </div>
-                <div className="flex space-x-1 items-center mt-1 justify-center">
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-4 w-4 text-indigo-600 mb-1.5"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-                      />
-                    </svg>
-                  </span>
-                  <p className="text-sm ">{item.label2}</p>
-                </div> */}
                 <Link
                   href={`/services/${item.slug}`}
                   className="flex justify-center"
                 >
                   {" "}
-                  <button className="flex mt-1 md:mt-4 justify-center text-xs md:text-sm w-[50%] text-white bg-black hover:bg-yellow-400 hover:text-black py-2 rounded shadow-lg">
+                  <button className="flex mt-1 md:mt-4 justify-center text-[.8rem] md:text-sm w-[50%] text-white bg-black hover:bg-yellow-400 hover:text-black py-2 rounded shadow-lg">
                     LEARN MORE{" "}
                     <IoArrowForwardOutline className="ml-2 mt-0.5 w-4 h-4" />
                   </button>

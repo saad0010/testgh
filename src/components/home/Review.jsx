@@ -9,10 +9,10 @@ const Review = () => {
         <div className="p-10 sm:pl-52 md:p-0">
           <div class="relative flex w-full flex-col rounded-xl bg-slate-100 bg-clip-border text-gray-700 shadow-md">
             <div class="p-10">
-              <h5 class="mb-6 block font-sans text-xl md:text-3xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+              <h5 class="mb-6 block font-mirza text-xl md:text-5xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                 Customer reviews
               </h5>
-              <p className="block mt-6 font-sans text-sm md:text-md font-light leading-relaxed text-inherit antialiased">
+              <p className="block mt-6 font-libre text-sm md:text-md font-light leading-relaxed text-inherit antialiased">
                 I used the online chat feature on their website to ask a few
                 questions, which lead to placing an order the same day. I used
                 their two day Lightning Service because the client needed shirts
@@ -99,8 +99,8 @@ const Review = () => {
         </div>
       </div>
 
-      <div className="text-center  md:mt-1 lg:mt-4 pl-2 pr-2 md:pl-52 md:pr-52">
-        <h4 className=" text-sm md:text-3xl">
+      <div className="text-center mb-4 md:mt-1 lg:mt-4 pl-2 pr-2 md:pl-52 md:pr-52">
+        <h4 className=" font-mirza text-sm md:text-3xl">
           See what other people are saying about our custom apparel printing
         </h4>
 
@@ -149,9 +149,9 @@ const Review = () => {
           </div>
         </div>
 
-        <p className="text-xl md:text-3xl mt-5">4.81 / 5.0</p>
+        <p className="text-xl font-libre md:text-2xl mt-5">4.81 / 5.0</p>
 
-        <button className="w-66 md:w-72 p-4 md:p-4 rounded mt-5  text-white hover:text-black text-xs md:text-[1rem] bg-black hover:bg-yellow-400">
+        <button className="w-66 md:w-72 font-libre p-2 md:p-3 rounded mt-5  text-white hover:text-black text-xs md:text-[.9rem] bg-black hover:bg-yellow-400">
           READ 4,355 MORE REVIEWS
         </button>
       </div>

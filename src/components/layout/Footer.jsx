@@ -27,12 +27,12 @@ const Footer = () => {
             height={100}
           />
         </div>
-        <div className="bg-yellow-400 p-8 text-center">
-          <h3 className="text-lg md:text-4xl text-slate-700 font-semibold">
+        <div className="bg-yellow-400 grid  p-8 text-center">
+          <h3 className="text-lg md:text-4xl mt-3 font-mirza text-slate-700 font-semibold">
             Ready to raise your t-shirt game ?
           </h3>
           <Link href={"/contact"}>
-            <button className="w-66 rounded-md mt-6 md:mt-10 p-2 md:p-3 font-semibold text-white text-xs md:text-sm  bg-black hover:bg-slate-500 hover:text-black">
+            <button className="w-66 rounded-md mt-6  p-2 font-libre text-[.5rem] md:p-3 font-semibold text-white md:text-xs  bg-black hover:bg-slate-500 hover:text-black">
               BEGIN YOUR ORDER
             </button>
           </Link>
@@ -51,24 +51,24 @@ const Footer = () => {
       <footer className="bg-black">
         <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
-            <div className="text-center">
+            <div className="text-center md:text-left">
               {/* <img src="#" className="mr-5 h-6 sm:h-9" alt="logo" /> */}
               <Link href={"/"}>
                 <h2 className="text-2xl font-kalam text-white font-semibold">
                   TEES WEATHER
                 </h2>
               </Link>
-              <p className="text-white text-sm mt-5">
+              <p className="text-white text-left font-libre text-sm mt-5">
                 Tees Weather is one of the leading online screen printing and
                 digitizing companies in United States
               </p>
-              <p className="max-w-xs text-white mt-4 text-xl font-bold">
+              <p className="max-w-xs font-mirza text-white mt-4 text-xl font-bold">
                 +1 234 456 7890
               </p>
-              <p className="max-w-xs text-white mt-4 text-xl font-bold">
+              <p className="max-w-xs font-mirza text-white mt-4 text-xl font-bold">
                 sales@teesweather.com
               </p>
-              <div className="flex mt-8 space-x-6 justify-between text-gray-600">
+              <div className="flex mt-8 space-x-6 justify-center md:justify-start text-gray-600">
                 <a
                   className="hover:opacity-75 "
                   href="http://facebook.com"
@@ -166,38 +166,47 @@ const Footer = () => {
                   </svg>
                 </a>
               </div>
-              <div className="flex p-10 gap-6 items-center">
+              <div className="flex py-10 gap-6 justify-center md:justify-start items-center">
                 <Image
                   src={"/paypal.png"}
                   alt="paypal"
                   width={128}
                   height={120}
-                  className="rounded-full w-20"
+                  className="rounded-full w-16 md:w-20"
                 />
                 <Image
                   src={"/btc.png"}
                   alt="btc"
-                  className="bg-white rounded-full w-12"
-                  width={72}
-                  height={73}
+                  className="bg-white rounded-full w-10 md:w-12"
+                  width={62}
+                  height={63}
                 />
               </div>
             </div>
             <div className="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 text-center lg:grid-cols-4 ">
               <div className="">
-                <p className="font-medium text-white ">Company</p>
+                <p className="text-md text-yellow-500 ">Company</p>
                 <nav className="flex flex-col mt-4 space-y-2 text-sm  text-white">
                   <Link href={"/"}>
                     {" "}
-                    <span className="hover:opacity-75"> Home </span>
+                    <span className="hover:opacity-75 font-mirza text-lg">
+                      {" "}
+                      Home{" "}
+                    </span>
                   </Link>
                   <Link href={"/about"}>
                     {" "}
-                    <span className="hover:opacity-75"> About </span>
+                    <span className="hover:opacity-75 font-mirza text-lg">
+                      {" "}
+                      About{" "}
+                    </span>
                   </Link>
                   <Link href={"/contact"}>
                     {" "}
-                    <span className="hover:opacity-75"> Become a client </span>
+                    <span className="hover:opacity-75 font-mirza text-lg">
+                      {" "}
+                      Become a client{" "}
+                    </span>
                   </Link>
                   {/* <Link href={"/casestudies"}>
                     {" "}
@@ -205,38 +214,50 @@ const Footer = () => {
                   </Link> */}
                   <Link href={"/blogs"}>
                     {" "}
-                    <span className="hover:opacity-75"> Blogs </span>
+                    <span className="hover:opacity-75 font-mirza text-lg">
+                      {" "}
+                      Blogs{" "}
+                    </span>
                   </Link>
                 </nav>
               </div>
               <div>
-                <p className="font-medium text-white">Services</p>
+                <p className="text-md text-yellow-500">Services</p>
                 <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
                   {services.map((item) => (
                     <Link key={item._id} href={`/services/${item.slug}`}>
-                      <span className="hover:opacity-75"> {item.title} </span>
+                      <span className="hover:opacity-75 font-mirza text-lg">
+                        {" "}
+                        {item.title}{" "}
+                      </span>
                     </Link>
                   ))}
                 </nav>
               </div>
               <div>
-                <p className="font-medium text-white">Products</p>
+                <p className="text-md text-yellow-500">Products</p>
                 <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
                   {cat.map((item) => (
                     <Link key={item._id} href={`/products/${item.slug}`}>
-                      <span className="hover:opacity-75"> {item.title} </span>
+                      <span className="hover:opacity-75 font-mirza text-lg">
+                        {" "}
+                        {item.title}{" "}
+                      </span>
                     </Link>
                   ))}
                 </nav>
               </div>
               <div>
-                <p className="font-medium text-white">Legal</p>
+                <p className="text-md text-yellow-500">Legal</p>
                 <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
                   <Link href={"/privacypolicy"}>
-                    <span className="hover:opacity-75"> Privacy Policy </span>
+                    <span className="hover:opacity-75 font-mirza text-lg">
+                      {" "}
+                      Privacy Policy{" "}
+                    </span>
                   </Link>
                   <Link href={"/terms"}>
-                    <span className="hover:opacity-75">
+                    <span className="hover:opacity-75 font-mirza text-lg">
                       {" "}
                       Terms &amp; Conditions{" "}
                     </span>

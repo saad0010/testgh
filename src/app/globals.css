@@ -1,5 +1,19 @@
 @import "inter-ui/inter.css";
-@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam&family=Libre+Franklin:wght@300&family=Mirza&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+video::-webkit-media-controls-panel {
+  background-color: rgb(255, 0, 255);
+  border-radius: 10%;
+  height: 30%;
+
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}
+
+video::-webkit-media-controls-enclosure {
+  width: 90%;
+}

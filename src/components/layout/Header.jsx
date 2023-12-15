@@ -21,14 +21,14 @@ const Header = () => {
   }, [pathName]);
 
   return (
-    <div className=" w-full h-20  border-gray-500 px-2 bg-white ">
+    <div className=" w-full lg:h-20 h-12  border-gray-500 px-2  bg-white ">
       <div className="h-full max-w-screen-2xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <Link href={"/"} className="ml-4 relative group overflow-hidden">
           {/* <Image  src={logo}
                   alt="logoImg" className="flex-1 h-20"
                  /> */}
-          <p className="text-3xl  font-bold font-kalam uppercase text-black  group-hover:translate-x-0 transition-transform duration-700">
+          <p className="text-2xl md:text-3xl  font-bold font-kalam uppercase text-black  group-hover:translate-x-0 transition-transform duration-700">
             TEES WEATHER
           </p>
           <span className="absolute bottom-0 w-full h-[2px] inline-block bg-black -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-700"></span>
@@ -84,12 +84,12 @@ const Header = () => {
 
         {/* Items */}
         <div className="hidden lg:inline-flex items-center gap-8 text-sm uppercase font-semibold tracking-wide">
-          <ul className="flex gap-8">
+          <ul className="flex gap-8 ">
             {headerListItem.map((item) => (
               <Link key={item._id} href={item.link}>
                 <li
                   className={`${active === item.link && "text-black"}
-                  text-gray-600 text-black cursor-pointer duration-300 group relative`}
+                   text-black cursor-pointer duration-300 mt-3 group relative text-xl font-mirza`}
                 >
                   {item.title}
                   <span

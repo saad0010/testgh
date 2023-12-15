@@ -7,6 +7,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { IoArrowForwardOutline } from "react-icons/io5";
+import { AiOutlineRightSquare } from "react-icons/ai";
 
 export const metadata = {
   title:
@@ -31,7 +32,56 @@ const Services = () => {
   return (
     <>
       <Container>
-        <div className="min-h-screen bg-transparent flex justify-center items-center py-20">
+        <div>
+          <div className="text-center p-6 lg:p-20 ">
+            <h3 className="text-slate-400">ADD-ON SERVICES</h3>
+            <h1 className="text-black text-3xl font-mirza lg:text-4xl mt-10">
+              Help your brand stand out from the crowd
+            </h1>{" "}
+            <h1 className="text-black mb-4 md:mb-0 text-3xl font-mirza lg:text-4xl lg:mt-6">
+              with our retail add-ons
+            </h1>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 px-8 pb-10 md:pb-0">
+            {data.map((item) => (
+              <div key={item.id}>
+                <Link href={`/services/${item.slug}`}>
+                  <div class="relative flex max-w-[24rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
+                    <div>
+                      <div className="relative m-0 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none">
+                        <Image
+                          src={item.image}
+                          alt="ui/ux review check"
+                          width={400}
+                          height={400}
+                          className="object-cover w-full h-full"
+                        />
+                      </div>
+                      <div className="p-6">
+                        <h4 className="block font-mirza text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                          {item.title}
+                        </h4>
+                        <p className="mt-3 block font-libre text-sm font-normal leading-relaxed text-gray-700 antialiased">
+                          {item.desc}
+                        </p>
+                      </div>
+                      <div className="-mb-5 text-right px-2">
+                        <button
+                          className="select-none  rounded-md bg-black py-1 px-1 text-center align-center  font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:bg-yellow-400 hover:text-black hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                          type="button"
+                          data-ripple-light="true"
+                        >
+                          <AiOutlineRightSquare className="text-2xl" />
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            ))}
+          </div>
+          {/* <div className="min-h-screen bg-transparent flex justify-center items-center py-20">
           <div className="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-3 gap-8 space-y-4 md:space-y-0">
             {data.map((item) => (
               <div
@@ -111,7 +161,7 @@ const Services = () => {
                     </span>
                     <p className="text-sm">{item.label2}</p>
                   </div> */}
-                  <Link href={`/services/${item.slug}`}>
+          {/* <Link href={`/services/${item.slug}`}>
                     {" "}
                     <button className="flex  justify-center mt-4 text-sm w-full text-white bg-indigo-600 py-2 rounded-xl shadow-lg">
                       MORE{" "}
@@ -121,10 +171,11 @@ const Services = () => {
                 </div>
               </div>
             ))}
-          </div>
+          </div> */}
+          {/* </div> */}
         </div>
       </Container>
-      <div className="h-px flex-auto mx-20  bg-white" />
+      {/* <div className="h-px flex-auto mx-20  bg-white" /> */}
     </>
   );
 };

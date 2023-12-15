@@ -11,6 +11,8 @@ module.exports = {
       fontFamily: {
         sans: ["Inter var", ...defaultTheme.fontFamily.sans],
         kalam: ["Kalam", ...defaultTheme.fontFamily.sans],
+        mirza: ["Mirza", ...defaultTheme.fontFamily.sans],
+        libre: ["Libre Franklin", ...defaultTheme.fontFamily.sans],
       },
       colors: {
         bodyColor: "#F2F2F2",
