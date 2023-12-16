@@ -23,7 +23,7 @@ const page = () => {
   // let parts = pathname.split("?");
   // let paths = parts.filter((str) => str !== "");
 
-  console.log(paths);
+  //console.log(paths);
   //console.log(params);
   const data = getData();
   return (
