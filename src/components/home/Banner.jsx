@@ -5,19 +5,20 @@ import React from "react";
 const Banner = () => {
   return (
     <div className="w-full bg-transparent">
-      <div className="grid grid-cols-1 max-w-screen ">
-        <div className="relative xs:h-48 sm:h-80 md:h-[32rem] lg:h-fit xl:h-[81vh]  overflow-hidden">
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="absolute -z-10    md:w-full   "
-          >
-            <source src="/banner.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-
+      <div className="grid grid-cols-1  w-screen">
+        <div className="relative h-full  overflow-hidden">
+          <div className="">
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="absolute -z-10 h-full  w-full object-fill  "
+            >
+              <source src="/banner.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
           <section className="  py-2 md:py-7 flex  bg-transaprent">
             {/* mx-auto max-w-[33rem] */}
             {/* <div className=" mx-auto max-w-[33rem]">
@@ -118,7 +119,7 @@ const Banner = () => {
             width={100}
             height={100}
             alt="print quality"
-            className="object-cover w-8 h-6 md:w-18 md:h-18"
+            className="object-cover w-18 h-16 md:w-18 md:h-18"
           />
           <p className="text-sm md:text-[1.25rem] font-mirza font-light  text-black mt-3">
             Design Review

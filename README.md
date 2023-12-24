@@ -38,4 +38,26 @@ Product Design Mobile & WEb Inline Components
 
 # about pages
 
+21/12/23
+--company done
+--screen-printing done
+--add video on add-on page --
+
+22/12/23
+change banner images -- add scroll button slider
+add video on add-on page --
+Header --
+
+# Set Home Page
+
+remove yellow part make slider with 4 banner images
+
+# Set google parameters + seo
+
+# Embroidery
+
+# Fullfilment
+
+# Stories
+
 # product pages

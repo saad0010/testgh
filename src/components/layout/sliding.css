@@ -1,0 +1,14 @@
+.swiperSlide,
+.active {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+  width: 50vw;
+  text-align: center;
+}
+.swiper-wrapper {
+  transition-timing-function: linear;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+}

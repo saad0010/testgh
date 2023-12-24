@@ -3,6 +3,7 @@ import "./globals.css";
 
 import Footer from "@/components/layout/Footer";
 import BecomClient from "@/components/layout/BecomClient";
+import Slider from "@/components/layout/Slider";
 
 {
   /* <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -29,10 +30,10 @@ export const metadata = {
   },
 
   title:
-    "TEES WEATHER : CUSTOM CLOTHING MANUFACTURER | PRINTING SERVICES | PERSONALIZED CUSTOM T-SHIRTS",
+    "Tees Weather : CUSTOM CLOTHING MANUFACTURER | PRINTING SERVICES | PERSONALIZED CUSTOM T-SHIRTS",
 
   description:
-    "Online Printing Services,custom clothing manufacturer, custom t-shirts, custom caps, custom hoodies",
+    "Online Printing Services,custom clothing manufacturer, custom t-shirts, custom caps, custom hoodies , custom approns",
 };
 
 export default function RootLayout({ children }) {
@@ -42,6 +43,7 @@ export default function RootLayout({ children }) {
         <Header />
 
         {children}
+        <Slider />
         <BecomClient />
         <Footer />
       </body>

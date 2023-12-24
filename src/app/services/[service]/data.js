@@ -5,36 +5,32 @@ export const items = {
       title: "Custom Patches Printing",
       desc: "Branded inside tags with custom shirt tag printing is a great way to give your brand an extra touchpoint in a stylish, memorable way. These tags will go a long way in giving your t-shirts a more custom, retail-quality finish.",
       label:
-        "Our soft inks are completely unnoticeable to the touch, which means you won’t feel any discomfort on the back of your neck while wearing your shirt. It will look great while also getting rid of the itchy, irritating manufacturer tag with custom clothing tag printing.",
+        "We supplies you finest quality personalized name badges that you can boast about among your peers! Ranging from name tags to name initials, signatures, and letters, this name badge supplier  tackles it all. ",
       label1:
-        "Custom printed tags give your brand an extra touchpoint in a cool, memorable way.",
+        "Our name badge makers have been in this industry for 10+ years, giving us a dominant position in the market. We pride ourselves on possessing a position thats unmatchable and unbeatable simultaneously. From allowing our customers to choose their favorite fabric to embroidery type and name badge size  clients are given a full opportunity to make their badge.",
       label2: "HIGHER RANKINGS!",
-      image:
-        "https://assets-global.website-files.com/5ccc8aa73871f9d12dc81c1b/63457842e3b9bb3af21429f1_custom-tag-printing-header-2.jpg",
+      image: "/Patches/Banner.jpg",
 
       images: [
         {
           id: 1,
-          src: "/pat2.jpg",
+          src: "/Patches/p2.jpg",
         },
         {
           id: 2,
-          src: "/pat4.jpeg",
+          src: "/Patches/p3.jpg",
         },
         {
           id: 3,
-          src: "/pat3.jpg",
+          src: "/Patches/p4.jpg",
         },
 
         {
           id: 4,
-          src: "/pat5.jpg",
-        },
-        {
-          id: 5,
-          src: "/pat1.jpg",
+          src: "/Patches/p5.jpg",
         },
       ],
+      video: "/Patches/p1.mp4",
     },
   ],
   embroidery: [
@@ -47,32 +43,28 @@ export const items = {
       label1:
         "Custom printed tags give your brand an extra touchpoint in a cool, memorable way.",
       label2: "HIGHER RANKINGS!",
-      image:
-        "https://assets-global.website-files.com/5ccc8aa73871f9d12dc81c1b/63457842e3b9bb3af21429f1_custom-tag-printing-header-2.jpg",
+      image: "/Embroidery/Banner.jpg",
 
       images: [
         {
           id: 1,
-          src: "/pat2.jpg",
+          src: "/Embroidery/e2.jpg",
         },
         {
           id: 2,
-          src: "/pat4.jpeg",
+          src: "/Embroidery/e3.jpg",
         },
         {
           id: 3,
-          src: "/pat3.jpg",
+          src: "/Embroidery/e4.jpeg",
         },
 
         {
           id: 4,
-          src: "/pat5.jpg",
-        },
-        {
-          id: 5,
-          src: "/pat1.jpg",
+          src: "/Embroidery/e5.png",
         },
       ],
+      video: "/Embroidery/e1.mp4",
     },
   ],
   sticker: [
@@ -85,32 +77,28 @@ export const items = {
       label1:
         "Custom printed tags give your brand an extra touchpoint in a cool, memorable way.",
       label2: "HIGHER RANKINGS!",
-      image:
-        "https://assets-global.website-files.com/5ccc8aa73871f9d12dc81c1b/63457842e3b9bb3af21429f1_custom-tag-printing-header-2.jpg",
+      image: "/Stickers/Banner.png",
 
       images: [
         {
           id: 1,
-          src: "/pat2.jpg",
+          src: "/Stickers/s2.jpg",
         },
         {
           id: 2,
-          src: "/pat4.jpeg",
+          src: "/Stickers/s3.jpg",
         },
         {
           id: 3,
-          src: "/pat3.jpg",
+          src: "/Stickers/s4.jpg",
         },
 
         {
           id: 4,
-          src: "/pat5.jpg",
-        },
-        {
-          id: 5,
-          src: "/pat1.jpg",
+          src: "/Stickers/s5.jpg",
         },
       ],
+      video: "/Stickers/s1.mp4",
     },
   ],
   "tote-bags": [
@@ -119,36 +107,32 @@ export const items = {
       title: "Tote Bags",
       desc: "Branded inside tags with custom shirt tag printing is a great way to give your brand an extra touchpoint in a stylish, memorable way. These tags will go a long way in giving your t-shirts a more custom, retail-quality finish.",
       label:
-        "Our soft inks are completely unnoticeable to the touch, which means you won’t feel any discomfort on the back of your neck while wearing your shirt. It will look great while also getting rid of the itchy, irritating manufacturer tag with custom clothing tag printing.",
+        "We are a custom tote bag manufacturer who can provide you with tote bags for all use cases, including formal and fashionable appearance. Our tote bags are stylish, lightweight, and spacious enough to carry your everyday items, thus delivering on numerous fronts, including form and function.",
       label1:
-        "Custom printed tags give your brand an extra touchpoint in a cool, memorable way.",
+        "We make much better grocery tote bags than plastic bags, and last a long time. If you want to purchase shopping bags, we have a manufacturing facility ready for you.",
       label2: "HIGHER RANKINGS!",
-      image:
-        "https://assets-global.website-files.com/5ccc8aa73871f9d12dc81c1b/63457842e3b9bb3af21429f1_custom-tag-printing-header-2.jpg",
+      image: "/Tote/banner.jpg",
 
       images: [
         {
           id: 1,
-          src: "/pat2.jpg",
+          src: "/Tote/t2.jpg",
         },
         {
           id: 2,
-          src: "/pat4.jpeg",
+          src: "/Tote/t3.jpg",
         },
         {
           id: 3,
-          src: "/pat3.jpg",
+          src: "/Tote/t4.jpg",
         },
 
         {
           id: 4,
-          src: "/pat5.jpg",
-        },
-        {
-          id: 5,
-          src: "/pat1.jpg",
+          src: "/Tote/t5.jpeg",
         },
       ],
+      video: "/Tote/t1.mp4",
     },
   ],
   aprons: [
@@ -157,36 +141,32 @@ export const items = {
       title: "Approns",
       desc: "Branded inside tags with custom shirt tag printing is a great way to give your brand an extra touchpoint in a stylish, memorable way. These tags will go a long way in giving your t-shirts a more custom, retail-quality finish.",
       label:
-        "Our soft inks are completely unnoticeable to the touch, which means you won’t feel any discomfort on the back of your neck while wearing your shirt. It will look great while also getting rid of the itchy, irritating manufacturer tag with custom clothing tag printing.",
+        "Tees weather provide you with custom aprons for your bakery, cooking events, kitchen use, restaurants, or any other occasion.",
       label1:
-        "Custom printed tags give your brand an extra touchpoint in a cool, memorable way.",
+        "We can deliver stylized and comfortable aprons that are made from high-quality materials and perform exceedingly well under demanding conditions.",
       label2: "HIGHER RANKINGS!",
-      image:
-        "https://assets-global.website-files.com/5ccc8aa73871f9d12dc81c1b/63457842e3b9bb3af21429f1_custom-tag-printing-header-2.jpg",
+      image: "/Aprons/banner.jpeg",
 
       images: [
         {
           id: 1,
-          src: "/pat2.jpg",
+          src: "/Aprons/a2.jpg",
         },
         {
           id: 2,
-          src: "/pat4.jpeg",
+          src: "/Aprons/a3.jpeg",
         },
         {
           id: 3,
-          src: "/pat3.jpg",
+          src: "/Aprons/a4.jpg",
         },
 
         {
           id: 4,
-          src: "/pat5.jpg",
-        },
-        {
-          id: 5,
-          src: "/pat1.jpg",
+          src: "/Aprons/a5.jpeg",
         },
       ],
+      video: "/Aprons/a1.mp4",
     },
   ],
   "promotional-product": [
@@ -199,32 +179,28 @@ export const items = {
       label1:
         "Custom printed tags give your brand an extra touchpoint in a cool, memorable way.",
       label2: "HIGHER RANKINGS!",
-      image:
-        "https://assets-global.website-files.com/5ccc8aa73871f9d12dc81c1b/63457842e3b9bb3af21429f1_custom-tag-printing-header-2.jpg",
+      image: "/Promotional/Banner.jpg",
 
       images: [
         {
           id: 1,
-          src: "/pat2.jpg",
+          src: "/Promotional/b2.jpg",
         },
         {
           id: 2,
-          src: "/pat4.jpeg",
+          src: "/Promotional/b3.jpg",
         },
         {
           id: 3,
-          src: "/pat3.jpg",
+          src: "/Promotional/b4.jpg",
         },
 
         {
           id: 4,
-          src: "/pat5.jpg",
-        },
-        {
-          id: 5,
-          src: "/pat1.jpg",
+          src: "/Promotional/b5.jpg",
         },
       ],
+      video: "/Promotional/b1.mp4",
     },
   ],
 };

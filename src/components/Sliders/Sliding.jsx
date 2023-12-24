@@ -33,7 +33,7 @@ const Sliding = () => {
         centeredSlides={true}
         spaceBetween={5}
         loop={true}
-        speed={5000}
+        speed={3000}
         autoplay={{
           delay: 3000,
           disableOnInteraction: false,
@@ -41,7 +41,7 @@ const Sliding = () => {
         pagination={{
           clickable: true,
         }}
-        modules={[EffectFade, Autoplay]}
+        modules={[EffectFade, Pagination, Autoplay]}
         className="mySwiper"
       >
         {/* <div className="grid grid-cols-1 justify-center items-start h-screen w-full  relative ">
@@ -77,17 +77,17 @@ const Sliding = () => {
 
         {dbanner.map((item) => (
           <SwiperSlide key={item._id} className="swiperSlide ">
-            <section className="relative ">
+            <section className="relative sm:h-72 md:h-96 lg:h-[30rem]">
               <Image
                 src={item.image}
                 alt={item.slug}
                 width={400}
                 height={400}
-                className="absolute -z-10 object-fill w-screen h-[500px] "
+                className="absolute -z-10 h-full  md:object-fill w-screen  "
               />
               <div>
-                <div className="p-10 lg:p-36 lg:px-72 relative">
-                  <h1 className="text-2xl lg:text-6xl font-mirza mb-3 font-semibold text-white">
+                <div className="p-10  lg:p-16 md:px-60 lg:px-72 relative">
+                  <h1 className="text-2xl sm:mt-16 md:mt-24  lg:mt-24 md:text-3xl lg:text-4xl font-mirza mb-3 font-semibold text-white">
                     Unleash Your Creativity: Custom Shirt Printing for Every
                     Industry!
                   </h1>
@@ -99,7 +99,7 @@ const Sliding = () => {
                   </p>
                   <Link
                     href={"/contact"}
-                    className="transform rounded-md px-2 pt-2 text-[.5rem] md:text-sm  font-mirza lg:px-5 lg:pt-3 lg:pb-2 lg:font-medium  text-black transition-colors bg-yellow-400 hover:bg-black hover:text-white"
+                    className="transform rounded-md px-2 py-2 text-[.5rem] md:text-sm  font-mirza lg:px-5 lg:pt-3 lg:pb-2 lg:font-medium  text-black transition-colors bg-yellow-400 hover:bg-black hover:text-white"
                   >
                     CONTACT US
                   </Link>
