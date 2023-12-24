@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { AiOutlineRightSquare } from "react-icons/ai";
 
-const NewCard = ({ title, image, p, p1 }) => {
+const NewCard = ({ title, image, p, p1, lin }) => {
   return (
     <div className=" md:pt-32 lg:pt-10 lg:pb-10 lg:mt-4 pb-4  bg-gray-100">
       <div className="grid grid-cols-1 md:grid-cols-3">
@@ -31,32 +31,36 @@ const NewCard = ({ title, image, p, p1 }) => {
             </div>
           </div>
         </div>
+
         <div className="md:pl-4">
           <Image
             src={image}
             width={400}
-            height={100}
+            height={200}
             alt="custom-tshirts"
             className="w-full sm:pl-10 sm:pr-10 sm:pt-6 sm:pb-4 md:p-0 sm:w-11/12   "
           />
         </div>
-        <div className="pl-12 mt-2 md:mt-0  w-96 lg:w-72 sm:w-96 md:pl-0 lg:pr-12">
+
+        <div className="lg:pl-12 mt-2 md:mt-0 px-4 lg:w-72 sm:w-[96] md:pl-0 lg:pr-12">
           <h3 className="text-bold  font-mirza lg:pr-50 lg:mt-4 text-3xl  md:text-4xl lg:text-5xl">
             {title}
           </h3>
-          <p className="mt-4 text-sm font-light md:mt-10 font-libre md:text-[.9rem] leading-6">
+          <p className="mt-4 text-xs font-light md:mt-10 font-libre md:text-[.9rem] leading-6">
             {p}
           </p>
-          <p className="mt-4 text-sm font-light md:mt-6 font-libre md:text-[.9rem] leading-6">
+          <p className="mt-4 text-xs font-light md:mt-6 font-libre md:text-[.9rem] leading-6">
             {p1}
           </p>
         </div>
       </div>
 
       <div className="text-center mt-4">
-        <button className="w-66 rounded mt-1 p-3 font-semibold font-libre text-white hover:text-black text-[.6rem] md:text-[.7rem] bg-black hover:bg-yellow-400">
-          SEE HOW WE DO IT
-        </button>
+        <Link href={"/screen-printing"}>
+          <button className="w-66 rounded mt-1 p-3 font-semibold font-libre text-white hover:text-black text-[.6rem] md:text-[.7rem] bg-black hover:bg-yellow-400">
+            SEE HOW WE DO IT
+          </button>
+        </Link>
       </div>
     </div>
   );

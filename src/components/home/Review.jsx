@@ -4,7 +4,7 @@ import React from "react";
 const Review = () => {
   return (
     // pt-[20rem] sm:pt-[30rem]  md:pt-[42rem] lg:pt-[50rem] xl:pt-[78rem] xl:px-28 lg:ml-32
-    <div className="pt-[0rem] sm:pt-[20rem]  md:pt-[22rem] lg:pt-[30rem] xl:pt-[0rem] xl:px-28 lg:ml-32">
+    <div className="pt-[0rem]     xl:pt-[0rem] xl:px-28 lg:ml-32">
       <div className="grid grid-cols-1 md:grid-cols-2 mt-4">
         <div className="p-10 sm:pl-52 md:p-0">
           <div className="relative flex w-full flex-col rounded-xl bg-slate-100 bg-clip-border text-gray-700 shadow-md">
@@ -90,11 +90,11 @@ const Review = () => {
         </div>
         <div className="hidden md:block pt-10   pr-32 lg:pr-0">
           <Image
-            src="https://assets-global.website-files.com/5ccc8aa73871f9d12dc81c1b/5cf18dc3feecffea3f7e56c2_sendit.jpg"
+            src="/rp.jpg"
             alt="review"
             width={300}
             height={300}
-            className="sm:w-9/12 md:w-10/12 lg:w-9/12  h-5/6   object-cover"
+            className="sm:w-9/12 md:w-10/12 lg:w-10/12  h-5/6   object-cover"
           />
         </div>
       </div>

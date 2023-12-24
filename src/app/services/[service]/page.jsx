@@ -35,6 +35,7 @@ const Service = ({ params }) => {
             p1={item.label}
             image={item.image}
             images={item.images}
+            video={item.video}
           />
         ))}
       </Container>

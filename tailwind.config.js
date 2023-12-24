@@ -23,6 +23,7 @@ module.exports = {
       },
       backgroundImage: {
         hero: "url('/assets/payment.png')",
+        // "hero-pattern": "url('/public/svg1.svg)",
       },
     },
   },

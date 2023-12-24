@@ -68,3 +68,24 @@ export const items = {
     },
   ],
 };
+
+export const sser = [
+  {
+    id: 7001,
+    title: "Standard",
+    desc: "2-week delivery by January 15 - January 22",
+    label: "All products available",
+  },
+  {
+    id: 7002,
+    title: "Rush",
+    desc: "1-week delivery by January 4",
+    label: "Most products available",
+  },
+  {
+    id: 7003,
+    title: "Lightning",
+    desc: "2-day delivery by December 27",
+    label: "Selected products available",
+  },
+];

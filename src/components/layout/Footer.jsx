@@ -58,14 +58,14 @@ const Footer = () => {
                   TEES WEATHER
                 </h2>
               </Link>
-              <p className="text-white text-left font-libre text-sm mt-5">
+              <p className="text-white lg:text-left font-libre text-sm mt-5">
                 Tees Weather is one of the leading online screen printing and
                 digitizing companies in United States
               </p>
-              <p className="max-w-xs font-mirza text-white mt-4 text-xl font-bold">
+              <p className=" font-mirza text-white mt-4 text-xl font-bold">
                 +1 (845) 316 8305
               </p>
-              <p className="max-w-xs font-mirza text-white mt-4 text-xl font-bold">
+              <p className=" font-mirza text-white mt-4 text-xl font-bold">
                 sales@teesweather.com
               </p>
               <div className="flex mt-8 space-x-6 justify-center md:justify-start text-gray-600">

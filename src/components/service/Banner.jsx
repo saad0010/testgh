@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Banner = (props) => {
@@ -7,6 +8,7 @@ const Banner = (props) => {
   const description = props.p;
   const description1 = props.p1;
   const image = props.image;
+  const video = props.video;
   const key = props.key;
   let img = props.images;
 
@@ -38,6 +40,22 @@ const Banner = (props) => {
           <br /> {description1}
         </p>
         {/* <p className="mt-10 leading-8 font-libre"></p> */}
+        <div className="mt-20">
+          {/* h-96 to clear view */}
+          <div className=" bg-slate-400">
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              controls
+              className="w-full h-full"
+            >
+              <source src={video} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
 
         {img.map((item) => (
           <div key={item.id} className="mt-24">
@@ -111,37 +129,40 @@ const Banner = (props) => {
           </details>
         </div>
         <div className="py-5">
-          <details className="group">
-            <summary className="flex gap-6 justify-left bg-slate-200 p-4 w-full rounded text-gray-600 items-center font-medium cursor-pointer list-none">
-              <span className="transition  group-open:rotate-180">
-                <svg
-                  className="w-6 h-6 text-gray-800 dark:text-yellow-500"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 18 18"
-                  color="#facc15"
-                >
-                  <path
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="3"
-                    d="M9 1v16M1 9h16"
-                  />
-                </svg>
-              </span>
-              <span className="font-semibold text-xl mt-4 lg:text-4xl font-mirza text-slate-800">
-                {" "}
-                Pricing
-              </span>
-            </summary>
-            <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-              <div className="px-4 my-10  pb-4">
-                <h2 className="text-xl font-libre ">Price Chart</h2>
-              </div>
-            </p>
-          </details>
+          <Link href={"/contact"}>
+            <details className="group">
+              <summary className="flex gap-6 justify-left bg-slate-200 p-4 w-full rounded text-gray-600 items-center font-medium cursor-pointer list-none">
+                <span className="transition  group-open:rotate-180">
+                  <svg
+                    className="w-6 h-6 text-gray-800 dark:text-yellow-500"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 18 18"
+                    color="#facc15"
+                  >
+                    <path
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="3"
+                      d="M9 1v16M1 9h16"
+                    />
+                  </svg>
+                </span>
+                <span className="font-semibold text-xl mt-4 lg:text-4xl font-mirza text-slate-800">
+                  {" "}
+                  Pricing
+                </span>
+              </summary>
+
+              <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                <div className="px-4 my-10  pb-4">
+                  <h2 className="text-xl font-libre ">Price Chart</h2>
+                </div>
+              </p>
+            </details>
+          </Link>
         </div>
       </div>
     </div>

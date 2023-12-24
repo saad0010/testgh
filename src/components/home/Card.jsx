@@ -24,16 +24,16 @@ const Card = (props) => {
               <h3 className="mb-3 text-sm md:text-lg text-center font-bold text-slat-400">
                 {item.title}
               </h3>
-              <div className="relative">
+              <div className="relative text-center items-center justify-center flex flex-row">
                 <Image
-                  className="w-full h-52 md:h-60 "
+                  className="w-72 h-52 md:h-44 "
                   src={item.image}
                   alt="Colors"
                   width={200}
                   height={200}
                 />
               </div>
-              <h1 className="mt-4  text-light tracking-widest text-[.7rem] md:text-md text-left  cursor-pointer">
+              <h1 className="mt-4 font-libre w-72 px-2  text-normal tracking-wide text-[.7rem] md:text-md  lg:text-[.8rem]  cursor-pointer">
                 {item.desc}
               </h1>
               <div className="my-4 ">
@@ -42,9 +42,9 @@ const Card = (props) => {
                   className="flex justify-center"
                 >
                   {" "}
-                  <button className="flex mt-1 md:mt-4 justify-center text-[.8rem] md:text-sm w-[50%] text-white bg-black hover:bg-yellow-400 hover:text-black py-2 rounded shadow-lg">
+                  <button className="inline-flex mt-1 md:mt-4 justify-center text-[.8rem] md:text-xs w-[50%] text-white bg-black hover:bg-yellow-400 hover:text-black py-2 rounded shadow-lg">
                     LEARN MORE{" "}
-                    <IoArrowForwardOutline className="ml-2 mt-0.5 w-4 h-4" />
+                    <IoArrowForwardOutline className="ml-2  w-4 h-4" />
                   </button>
                 </Link>
               </div>

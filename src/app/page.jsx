@@ -19,7 +19,7 @@ const cardData = [
     label: "24/7 Support",
     label1: "Fast Delivery",
     label2: "High Standards!",
-    image: "/ss1.jpg",
+    image: "/customp.jpeg",
   },
   {
     id: 2,
@@ -29,12 +29,12 @@ const cardData = [
     label: "24/7 Support",
     label1: "Fast Delivery",
     label2: "High Standards",
-    image: "/ce.jpg",
+    image: "/emb.jpg",
   },
   {
     id: 3,
-    title: "All-Over Sublimation Printing",
-    slug: "sublimationprinting",
+    title: "Printing",
+    slug: "printing",
     desc: "All-over sublimation printing, bring out your creativity. We make every square inch of your clothing into a vivid, picture-perfect canvas. Our cutting-edge sublimation technique ensures durable, crisp prints that distinguish your business. Uncover boundless opportunities and create a lasting impact on your clientele.",
     label: "24/7 Support",
     label1: " Fast Delivery",
@@ -94,13 +94,14 @@ export default function Home() {
         // image={
         //   "https://assets-global.website-files.com/5ccc8aa73871f9d0b1c81c04/5fe48b5fc345308256f5f2bc_how%20it%20works-min-v2.jpg"
         // }
-        image={"/st2.jpg"}
+        image={"/nc.jpg"}
         p1={
           "Tees Weather's library of soft custom shirts, unique print options, and simple order process make it easier than ever to order shirts you'll love and wear proudly."
         }
         p={
           " Your brand is too valuable to print on scratchy, ill-fitting shirts that no one will wear."
         }
+        lin={"/screen-printing"}
       />
       <div className=" md:pt-20 lg:pt-0">
         <Card cardData={cardData} />
