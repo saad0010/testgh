@@ -151,13 +151,13 @@ const Contact = () => {
             <div className="-mt-[22rem] lg:-mt-[53rem] lg:ml-[60rem] lg:mr-0 px-8 lg:px-0">
               <div className="bg-white p-8 rounded-xl drop-shadow-2xl">
                 <p className="font-libre font-normal text-slate-900 tracking-wider  text-sm leading-6">
-                  We're ready and waiting to answer all of your questions...
-                  Well, all of your product-related questions—please don't try
-                  to stump us with questions about quantum physics or
-                  differential equations or something.
+                  Were ready and waiting to answer all of your questions...
+                  Well, all of your product-related questions—please dont try to
+                  stump us with questions about quantum physics or differential
+                  equations or something.
                 </p>
                 <p className="mt-2 font-libre font-normal text-slate-900 tracking-wider text-sm leading-6">
-                  We can't do your math homework, but we can help guide you
+                  We cant do your math homework, but we can help guide you
                   toward the product that best fits your budget, order size, and
                   design!
                 </p>
@@ -188,9 +188,9 @@ const Contact = () => {
                   Get in touch with us!
                 </h2>
                 <p className="tracking-wider">
-                  You'll receive an email from a real, live human typically
-                  within an hour on business days. Our office hours are 9am –
-                  5pm EST weekdays.
+                  You ll receive an email from a real, live human typically
+                  within an hour on business days. Our office hours are 9am 5pm
+                  EST weekdays.
                 </p>
               </div>
               <div>

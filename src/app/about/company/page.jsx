@@ -56,14 +56,14 @@ const page = () => {
             </h2>
             <p className="mt-4  leading-7 text-white font-libre text-sm">
               We believe that everyone deserves high-quality custom garments and
-              personalized merchandise right when they need them. So, we’re
+              personalized merchandise right when they need them. So, we re
               proud to offer our advanced printing services and lightning-fast
-              turnaround times to customers. We are capturing our customer’s
+              turnaround times to customers. We are capturing our customers
               hearts by delivering excellence and creativity in customized
               apparel. You can design your own t-shirts and hoodies, select your
               t-shirt style, and place an order for it to be printed and
-              delivered to you. That’s as easy as customized merchandise
-              printing gets!
+              delivered to you. Thats as easy as customized merchandise printing
+              gets!
             </p>
           </div>
         </div>
