@@ -19,7 +19,7 @@ const page = () => {
               <p className="mt-6 md:mt-8  lg:mt-9    font-libre  font-normal text-[.9rem] md:text-[.8rem] lg:pl-28 lg:pr-2  lg:text-[1.2rem] leading-7 md:leading-6">
                 Tees weather is a leading fashion retailer offering personalize
                 clothing, and accessories for men, women and kids. Since 2017,
-                we've been committed to providing our customers high quality,
+                we ve been committed to providing our customers high quality,
                 unique and custom Printing, sublimation, embroidery and digital
                 Printing facility to all over the world.
               </p>
