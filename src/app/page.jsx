@@ -1,21 +1,21 @@
-import Clients from "@/components/clients/Clients";
 import Card from "@/components/home/Card";
 import SecHero from "@/components/service/SecHero";
-import Image from "next/image";
-import bannerTwo from "../../public/1.png";
+
 import bannerTwo2 from "../../public/effortless.webp";
 import Banner from "@/components/home/Banner";
 import PnS from "@/components/home/PnS";
 import Review from "@/components/home/Review";
 import NewCard from "@/components/home/NewCard";
-import DBanner from "@/components/home/DBanner";
+import Slider1 from "@/components/layout/Slider";
 import Slider from "@/components/Sliders/Slider";
+import BecomClient from "@/components/layout/BecomClient";
+import NCard from "@/components/home/NCard";
 const cardData = [
   {
     id: 1,
     title: "Custom Patches",
     slug: "patches",
-    desc: "Use our custom screen printing service to create an outstanding impression on your customers. We apply vibrant, long-lasting inks to imprint your company's name, images, and messaging onto high-quality textiles. Our state-of-the-art technology guarantees vivid, striking designs that draw in viewers. ",
+    desc: "Personalized embroidered patches provide a premium appearance without breaking the bank. You have the flexibility to add your personalized patch design on any article of clothing, regardless of its size, shape, or material.Customers can easily obtain the unique patches they want thanks to our step-by-step ordering process.",
     label: "24/7 Support",
     label1: "Fast Delivery",
     label2: "High Standards!",
@@ -33,9 +33,9 @@ const cardData = [
   },
   {
     id: 3,
-    title: "Printing",
+    title: "Custom Printing",
     slug: "printing",
-    desc: "All-over sublimation printing, bring out your creativity. We make every square inch of your clothing into a vivid, picture-perfect canvas. Our cutting-edge sublimation technique ensures durable, crisp prints that distinguish your business. Uncover boundless opportunities and create a lasting impact on your clientele.",
+    desc: "Use our custom screen printing service to create an outstanding impression on your customers. We apply vibrant, long-lasting inks to imprint your company's name, images, and messaging onto high-quality textiles. Our state-of-the-art technology guarantees vivid, striking designs that draw in viewers.",
     label: "24/7 Support",
     label1: " Fast Delivery",
     label2: "High Standards",
@@ -89,7 +89,8 @@ export default function Home() {
         <Slider />
       </div>
       <Review />
-      <NewCard
+
+      <NCard
         title={"Don't settle for custom shirts no one will wear."}
         // image={
         //   "https://assets-global.website-files.com/5ccc8aa73871f9d0b1c81c04/5fe48b5fc345308256f5f2bc_how%20it%20works-min-v2.jpg"
@@ -105,6 +106,7 @@ export default function Home() {
       />
       <div className=" md:pt-20 lg:pt-0">
         <Card cardData={cardData} />
+        <BecomClient />
       </div>
       <NewCard
         title={"Don't settle for  Patches."}
@@ -120,12 +122,13 @@ export default function Home() {
         }
       />
 
-      <div className="md:pt-20">
+      <div className="md:pt-20 md:pb-20">
         <SecHero
           heading="Your products—processed, packed and delivered worldwide by Tees Weather"
           description="Print-on-demand eliminates upfront costs and leftover stock by fulfilling products only when your customer places an order. No upfront fees. No minimums. Just effortless fulfillment.  "
           image={bannerTwo2}
         />
+        <Slider1 />
       </div>
       {/* <div className="h-px flex-auto mx-20 mt-20  bg-black" /> */}
       {/* <Clients /> */}

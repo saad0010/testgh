@@ -17,10 +17,11 @@ const page = () => {
                 Printed locally, worn globally.
               </h1>
               <p className="mt-6 md:mt-8  lg:mt-9    font-libre  font-normal text-[.9rem] md:text-[.8rem] lg:pl-28 lg:pr-2  lg:text-[1.2rem] leading-7 md:leading-6">
-                We’re a tight-knit group of people who are driven to make
-                quality custom t-shirts that feature the compelling messages and
-                beautiful designs of our treasured customers. We love putting
-                new things out into the world.
+                Tees weather is a leading fashion retailer offering personalize
+                clothing, and accessories for men, women and kids. Since 2017,
+                we've been committed to providing our customers high quality,
+                unique and custom Printing, sublimation, embroidery and digital
+                Printing facility to all over the world.
               </p>
             </div>
           </div>
@@ -54,12 +55,15 @@ const page = () => {
               Tees Weather Exists to Elevate the Everyday
             </h2>
             <p className="mt-4  leading-7 text-white font-libre text-sm">
-              People are at the heart of what we do. They re how we dot it, and
-              how we do it for. We re fueled by the belief that every moment,
-              every interaction,and every person matters--everyday. We believe
-              that the true joys of life are found not in the tuxedo days, but
-              in the t-shirt days--which is why we seek to elevate the everyday
-              through superior products & processes.
+              We believe that everyone deserves high-quality custom garments and
+              personalized merchandise right when they need them. So, we’re
+              proud to offer our advanced printing services and lightning-fast
+              turnaround times to customers. We are capturing our customer’s
+              hearts by delivering excellence and creativity in customized
+              apparel. You can design your own t-shirts and hoodies, select your
+              t-shirt style, and place an order for it to be printed and
+              delivered to you. That’s as easy as customized merchandise
+              printing gets!
             </p>
           </div>
         </div>

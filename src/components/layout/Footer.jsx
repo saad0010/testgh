@@ -166,20 +166,41 @@ const Footer = () => {
                   </svg>
                 </a>
               </div>
-              <div className="flex py-10 gap-6 justify-center md:justify-start items-center">
+              <div className="flex py-10 gap-3 justify-center md:justify-start items-center">
                 <Image
-                  src={"/paypal.png"}
+                  src={"/visa.png"}
+                  alt="btc"
+                  className="bg-white  w-12 md:w-14"
+                  width={100}
+                  height={100}
+                />
+                <Image
+                  src={"/master.png"}
+                  alt="btc"
+                  className="bg-white  w-12 md:w-14"
+                  width={100}
+                  height={100}
+                />
+                <Image
+                  src={"/ax.webp"}
                   alt="paypal"
-                  width={128}
-                  height={120}
-                  className="rounded-full w-16 md:w-20"
+                  width={100}
+                  height={100}
+                  className=" w-[2.7rem] md:w-[3rem]"
+                />
+                <Image
+                  src={"/pp.png"}
+                  alt="btc"
+                  className="bg-white  w-12 md:w-14"
+                  width={100}
+                  height={100}
                 />
                 <Image
                   src={"/btc.png"}
                   alt="btc"
-                  className="bg-white rounded-full w-10 md:w-12"
-                  width={62}
-                  height={63}
+                  className="bg-white rounded-full  w-8 md:w-9"
+                  width={100}
+                  height={100}
                 />
               </div>
             </div>

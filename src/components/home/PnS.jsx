@@ -28,7 +28,7 @@ const PnS = () => {
     };
   }
   return (
-    <div className="bg-gray-100 pt-20 pb-10">
+    <div className="bg-gray-100 pt-20 pb-10 h-screen">
       <div className="text-center">
         <h2 className=" text-4xl lg:text-6xl font-mirza font-light ">
           Our Products

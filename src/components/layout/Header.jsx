@@ -1,6 +1,14 @@
 "use client";
 
-import { abt, headerListItem, prodSvg, services, spt } from "@/constants";
+import {
+  abt,
+  brands,
+  collection,
+  headerListItem,
+  prodSvg,
+  services,
+  spt,
+} from "@/constants";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
@@ -30,7 +38,7 @@ const Header = () => {
   }, [pathName]);
 
   return (
-    <div className=" w-full lg:h-20 h-24  border-gray-500 px-2  bg-white overflow-x-hidden">
+    <div className=" w-full lg:h-20 h-24  border-gray-500 px-2 border-b-2 bg-white overflow-x-hidden">
       <div className="h-full max-w-screen-2xl mx-auto flex items-center justify-between">
         <span
           onClick={() => setShowMenu(true)}
@@ -71,11 +79,11 @@ const Header = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2">
               <div className="hidden lg:block">
                 <Image
-                  src={"/h1.jpg"}
+                  src={"/h8.jpg"}
                   alt="tees weather"
                   width={400}
                   height={400}
-                  className="w-full"
+                  className="w-full "
                 />
               </div>
               <div
@@ -172,11 +180,11 @@ const Header = () => {
         )}
         {/* Small Screen Product Menu */}
         {showMenu && showProduct && (
-          <div className="w-full lg:w-4/5 h-screen fixed  top-0 left-0 bg-white z-50 ">
-            <div className="grid grid-cols-1 lg:grid-cols-2">
+          <div className="w-full lg:w-4/5 h-screen fixed overflow-y-scroll top-0 left-0 bg-white z-50 ">
+            <div className="grid grid-cols-1 lg:grid-cols-2 ">
               <div className="hidden lg:block">
                 <Image
-                  src={"/h1.jpg"}
+                  src={"/h9.jpg"}
                   alt="tees weather"
                   width={400}
                   height={400}
@@ -187,7 +195,7 @@ const Header = () => {
                 initial={{ x: 10, opacity: 0 }}
                 animate={{ x: 0, opactiy: 1 }}
                 transition={{ duration: 0.2 }}
-                className="w-[100%] h-full bg-gray-100 py-4 relative"
+                className="w-[100%] h-full bg-gray-100 py-4  relative"
               >
                 <span
                   onClick={() => setShowMenu(false)}
@@ -204,11 +212,11 @@ const Header = () => {
                 </span>
 
                 <div>
-                  <div className="text-center mt-20 text-3xl  font-mirza font-semibold">
-                    <h2 className="mb-10"> Our Products</h2>
+                  <div className="text-center mt-10 text-3xl  font-mirza font-semibold">
+                    <h2 className="mb-7"> Our Products</h2>
                   </div>
                   <div className="text-center  ">
-                    <div className="grid grid-cols-2 gap-4">
+                    <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 lg:pb-4">
                       {prodSvg.map((item) => (
                         <div
                           key={item.id}
@@ -217,14 +225,34 @@ const Header = () => {
                           <Image
                             src={item.img}
                             alt={item.title}
-                            width={60}
-                            height={60}
+                            width={50}
+                            height={50}
                           />
-                          <h3 className="font-mirza  text-black mt-2 font-normal text-2xl">
+                          <h3 className="font-mirza  text-black mt-2 font-normal  text-2xl">
                             {item.title}
                           </h3>
                         </div>
                       ))}
+                    </div>
+                  </div>
+                  <div className="bg-black text-center">
+                    <div className="grid lg:grid-cols-2 pb-10">
+                      <div className="py-10">
+                        <h2 className="text-yellow-400">COLLECTIONS</h2>
+                        {collection.map((item) => (
+                          <Link key={item.id} href={"/products"}>
+                            <p className="text-white mt-4">{item.title}</p>
+                          </Link>
+                        ))}
+                      </div>
+                      <div className="pb-10 pt-0">
+                        <h2 className="text-yellow-400">BRANDS</h2>
+                        {brands.map((item) => (
+                          <Link key={item.id} href={"/products"}>
+                            <p className="text-white mt-4">{item.title}</p>
+                          </Link>
+                        ))}
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -238,7 +266,7 @@ const Header = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2">
               <div className="hidden lg:block">
                 <Image
-                  src={"/h1.jpg"}
+                  src={"/h4.jpg"}
                   alt="tees weather"
                   width={400}
                   height={400}
@@ -297,7 +325,7 @@ const Header = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2">
               <div className="hidden lg:block">
                 <Image
-                  src={"/h1.jpg"}
+                  src={"/h6.jpg"}
                   alt="tees weather"
                   width={400}
                   height={400}
@@ -354,7 +382,7 @@ const Header = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2">
               <div className="hidden lg:block">
                 <Image
-                  src={"/h1.jpg"}
+                  src={"/h7.jpg"}
                   alt="tees weather"
                   width={400}
                   height={400}

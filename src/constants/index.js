@@ -106,31 +106,31 @@ export const dbanner = [
     slug: "custom shirt printing for every industy",
     image: "/banners/3.jpg",
   },
-  {
-    _id: 5004,
-    slug: "custom shirt printing for every industy",
-    image: "/banners/4.jpg",
-  },
-  {
-    _id: 5005,
-    slug: "custom shirt printing for every industy",
-    image: "/banners/5.jpg",
-  },
-  {
-    _id: 5006,
-    slug: "custom shirt printing for every industy",
-    image: "/banners/6.jpg",
-  },
-  {
-    _id: 5007,
-    slug: "custom shirt printing for every industy",
-    image: "/banners/7.jpg",
-  },
-  {
-    _id: 5008,
-    slug: "custom shirt printing for every industy",
-    image: "/banners/8.jpg",
-  },
+  // {
+  //   _id: 5004,
+  //   slug: "custom shirt printing for every industy",
+  //   image: "/banners/4.jpg",
+  // },
+  // {
+  //   _id: 5005,
+  //   slug: "custom shirt printing for every industy",
+  //   image: "/banners/5.jpg",
+  // },
+  // {
+  //   _id: 5006,
+  //   slug: "custom shirt printing for every industy",
+  //   image: "/banners/6.jpg",
+  // },
+  // {
+  //   _id: 5007,
+  //   slug: "custom shirt printing for every industy",
+  //   image: "/banners/7.jpg",
+  // },
+  // {
+  //   _id: 5008,
+  //   slug: "custom shirt printing for every industy",
+  //   image: "/banners/8.jpg",
+  // },
   {
     _id: 5009,
     slug: "custom shirt printing for every industy",
@@ -141,21 +141,21 @@ export const dbanner = [
     slug: "custom shirt printing for every industy",
     image: "/banners/10.jpg",
   },
-  {
-    _id: 5011,
-    slug: "custom shirt printing for every industy",
-    image: "/banners/11.webp",
-  },
-  {
-    _id: 5012,
-    slug: "custom shirt printing for every industy",
-    image: "/banners/12.webp",
-  },
-  {
-    _id: 5013,
-    slug: "custom shirt printing for every industy",
-    image: "/banners/13.jpg",
-  },
+  // {
+  //   _id: 5011,
+  //   slug: "custom shirt printing for every industy",
+  //   image: "/banners/11.webp",
+  // },
+  // {
+  //   _id: 5012,
+  //   slug: "custom shirt printing for every industy",
+  //   image: "/banners/12.webp",
+  // },
+  // {
+  //   _id: 5013,
+  //   slug: "custom shirt printing for every industy",
+  //   image: "/banners/13.jpg",
+  // },
 ];
 
 export const scard = [
@@ -254,10 +254,10 @@ export const logos = [
     id: 2001,
     src: "/logo/01.jpg",
   },
-  {
-    id: 2002,
-    src: "/logo/02.png",
-  },
+  // {
+  //   id: 2002,
+  //   src: "/logo/02.png",
+  // },
   {
     id: 2003,
     src: "/logo/03.jpg",
@@ -313,5 +313,71 @@ export const logos = [
   {
     id: 2015,
     src: "/logo/15.jpg",
+  },
+];
+
+export const collection = [
+  {
+    id: 1,
+    title: "Best Sellers",
+    slug: "best-sellers",
+  },
+  {
+    id: 2,
+    title: "Mens/Unisex",
+    slug: "mens-unisex",
+  },
+  {
+    id: 3,
+    title: "Womens",
+    slug: "womens",
+  },
+  {
+    id: 4,
+    title: "Sustainable",
+    slug: "sustainable",
+  },
+  {
+    id: 5,
+    title: "Made in USA",
+    slug: "made-in-usa",
+  },
+  {
+    id: 6,
+    title: "All Products",
+    slug: "all-products",
+  },
+];
+
+export const brands = [
+  {
+    id: 1,
+    title: "Alternative Apparel",
+    slug: "alternative-apparel",
+  },
+  {
+    id: 2,
+    title: "American Apparel",
+    slug: "american-apparel",
+  },
+  {
+    id: 3,
+    title: "Bella Canvas",
+    slug: "bella-canvas",
+  },
+  {
+    id: 4,
+    title: "Next Level Apparel",
+    slug: "next-level-apparel",
+  },
+  {
+    id: 5,
+    title: "Independent Trading Co.",
+    slug: "independent-trading",
+  },
+  {
+    id: 6,
+    title: "All Brands",
+    slug: "all-brands",
   },
 ];

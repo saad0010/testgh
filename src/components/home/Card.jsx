@@ -14,26 +14,26 @@ const Card = (props) => {
 
   return (
     <Container>
-      <div className="min-h-screen bg-transparent flex justify-center  items-center ">
-        <div className="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-3 gap-8 space-y-0 md:space-y-0">
+      <div className=" bg-transparent flex justify-center mt-8  items-start ">
+        <div className="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-3 gap-8 space-y-0 md:space-y-2">
           {cardData?.map((item) => (
             <div
               key={item.id}
-              className="max-w-sm bg--500 px-6 pt-6 pb-2 rounded-xl shadow-lg transform  hover:scale-105 transition duration-500 hover:shadow-purple-950 hover:border-solid"
+              className="max-w-sm bg--500 px-6  pb-2 rounded-xl shadow-lg transform  hover:scale-105 transition duration-500 hover:shadow-purple-950 hover:border-solid"
             >
               <h3 className="mb-3 text-sm md:text-lg text-center font-bold text-slat-400">
                 {item.title}
               </h3>
               <div className="relative text-center items-center justify-center flex flex-row">
                 <Image
-                  className="w-72 h-52 md:h-44 "
+                  className="w-72 h-52 md:h-40 md:w-64 "
                   src={item.image}
                   alt="Colors"
                   width={200}
                   height={200}
                 />
               </div>
-              <h1 className="mt-4 font-libre w-72 px-2  text-normal tracking-wide text-[.7rem] md:text-md  lg:text-[.8rem]  cursor-pointer">
+              <h1 className="mt-4 font-libre w-72 px-4  text-normal tracking-wide text-[.7rem] md:text-md  lg:text-[.74rem]  cursor-pointer">
                 {item.desc}
               </h1>
               <div className="my-4 ">

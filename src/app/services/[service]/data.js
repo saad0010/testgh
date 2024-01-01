@@ -20,28 +20,40 @@ export const items = {
           id: 2,
           src: "/Patches/p3.jpg",
         },
+        // {
+        //   id: 3,
+        //   src: "/Patches/p4.jpg",
+        // },
+
+        // {
+        //   id: 4,
+        //   src: "/Patches/p5.jpg",
+        // },
         {
           id: 3,
-          src: "/Patches/p4.jpg",
+          src: "/Patches/p6.jpg",
         },
-
         {
           id: 4,
-          src: "/Patches/p5.jpg",
+          src: "/Patches/p7.jpg",
+        },
+        {
+          id: 5,
+          src: "/Patches/p2.jpeg",
         },
       ],
-      video: "/Patches/p1.mp4",
+      video: "/Patches/p.mp4",
     },
   ],
   embroidery: [
     {
       id: 2,
       title: "Embroidery ",
-      desc: "Branded inside tags with custom shirt tag printing is a great way to give your brand an extra touchpoint in a stylish, memorable way. These tags will go a long way in giving your t-shirts a more custom, retail-quality finish.",
+      desc: "It is a new method of embroidery, and unlike traditional ones, it is less expensive and stylish. We provide the best embroidery digitizing services for the individual client or organizational logos.",
       label:
-        "Our soft inks are completely unnoticeable to the touch, which means you wont feel any discomfort on the back of your neck while wearing your shirt. It will look great while also getting rid of the itchy, irritating manufacturer tag with custom clothing tag printing.",
+        "We'll include the colour code or Pantone number in your artwork approval so you can double-check it before we start manufacturing. Please send us the Pantone colour code for your brand so we can take it into account. Much like the joy of receiving a personalized gift.",
       label1:
-        "Custom printed tags give your brand an extra touchpoint in a cool, memorable way.",
+        "Embroidered digitizing is a well-known kind of embroidery in modern days. It is more in demand as it costs less time and money. ",
       label2: "HIGHER RANKINGS!",
       image: "/Embroidery/Banner.jpg",
 
@@ -64,18 +76,18 @@ export const items = {
           src: "/Embroidery/e5.png",
         },
       ],
-      video: "/Embroidery/e1.mp4",
+      video: "/Embroidery/e.mp4",
     },
   ],
   sticker: [
     {
       id: 3,
       title: "Sticker",
-      desc: "Branded inside tags with custom shirt tag printing is a great way to give your brand an extra touchpoint in a stylish, memorable way. These tags will go a long way in giving your t-shirts a more custom, retail-quality finish.",
+      desc: "Tees Weather Labels takes great pride in differentiating itself from competitors by offering an extensive range of product label printing services across Canada and us. ",
       label:
-        "Our soft inks are completely unnoticeable to the touch, which means you won’t feel any discomfort on the back of your neck while wearing your shirt. It will look great while also getting rid of the itchy, irritating manufacturer tag with custom clothing tag printing.",
+        "Throughout the whole manufacturing cycle, genuine alignment and efficiency are made possible by our collaborative approach. Cross-functional groups like Technical Field Support and Research & Development are dedicated to creating the best labels possible to meet your packaging and product objectives.",
       label1:
-        "Custom printed tags give your brand an extra touchpoint in a cool, memorable way.",
+        "Being a top label manufacturer, we think you ought to have easy access to all the information you require. Working with us gives you access to a wide range of specialist product solutions.",
       label2: "HIGHER RANKINGS!",
       image: "/Stickers/Banner.png",
 
@@ -166,18 +178,18 @@ export const items = {
           src: "/Aprons/a5.jpeg",
         },
       ],
-      video: "/Aprons/a1.mp4",
+      video: "/Aprons/apron.mp4",
     },
   ],
   "promotional-product": [
     {
       id: 6,
       title: "Promotional Product",
-      desc: "Branded inside tags with custom shirt tag printing is a great way to give your brand an extra touchpoint in a stylish, memorable way. These tags will go a long way in giving your t-shirts a more custom, retail-quality finish.",
+      desc: "When people use your promotional products made by us, they act as walking billboard for your brand and this can help you to increase your sales especially among new audiences.Make your employees as ambassadors by giving them give away items. Choose eco-friendly promotional products, like recycled tote bags. Rather than choosing generic items, have your own promotional products with custom design and with your logo or slogan and this will be more eye-catching.",
       label:
-        "Our soft inks are completely unnoticeable to the touch, which means you won’t feel any discomfort on the back of your neck while wearing your shirt. It will look great while also getting rid of the itchy, irritating manufacturer tag with custom clothing tag printing.",
+        "If you're in the market for Promotional Items for your company business, look no further than TeesWeather. All you need to do to get the ball rolling is to get in touch about your needs and we will be happy to talk you through your options and provide a quick and easy quote.",
       label1:
-        "Custom printed tags give your brand an extra touchpoint in a cool, memorable way.",
+        "From pens and tote bags to water bottles and other accessories our promotional products come in a vast variety of shapes, sizes, and functionalities with the fine quality.",
       label2: "HIGHER RANKINGS!",
       image: "/Promotional/Banner.jpg",
 

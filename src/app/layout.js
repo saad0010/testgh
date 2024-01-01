@@ -2,8 +2,8 @@ import Header from "@/components/layout/Header";
 import "./globals.css";
 
 import Footer from "@/components/layout/Footer";
-import BecomClient from "@/components/layout/BecomClient";
-import Slider from "@/components/layout/Slider";
+// import BecomClient from "@/components/layout/BecomClient";
+// import Slider from "@/components/layout/Slider";
 
 {
   /* <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -43,8 +43,8 @@ export default function RootLayout({ children }) {
         <Header />
 
         {children}
-        <Slider />
-        <BecomClient />
+        {/* <Slider /> */}
+        {/* <BecomClient /> */}
         <Footer />
       </body>
     </html>

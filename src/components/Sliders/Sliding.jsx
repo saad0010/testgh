@@ -42,7 +42,7 @@ const Sliding = () => {
           clickable: true,
         }}
         modules={[EffectFade, Pagination, Autoplay]}
-        className="mySwiper"
+        className="mySwiper h-screen"
       >
         {/* <div className="grid grid-cols-1 justify-center items-start h-screen w-full  relative ">
           {dbanner.map((item) => (
@@ -77,21 +77,21 @@ const Sliding = () => {
 
         {dbanner.map((item) => (
           <SwiperSlide key={item._id} className="swiperSlide ">
-            <section className="relative sm:h-72 md:h-96 lg:h-[30rem]">
+            <section className="relative  ">
               <Image
                 src={item.image}
                 alt={item.slug}
-                width={400}
-                height={400}
-                className="absolute -z-10 h-full  md:object-fill w-screen  "
+                width={1000}
+                height={1000}
+                className="absolute -z-10 h-screen object-fill   w-screen  "
               />
-              <div>
-                <div className="p-10  lg:p-16 md:px-60 lg:px-72 relative">
-                  <h1 className="text-2xl sm:mt-16 md:mt-24  lg:mt-24 md:text-3xl lg:text-4xl font-mirza mb-3 font-semibold text-white">
+              <div c>
+                <div className="p-10   lg:p-16 md:px-60 lg:px-72 relative">
+                  <h1 className="text-2xl  sm:mt-16 md:mt-24  lg:mt-52 md:text-3xl lg:text-6xl font-mirza mb-3 font-semibold text-white">
                     Unleash Your Creativity: Custom Shirt Printing for Every
                     Industry!
                   </h1>
-                  <p className="text-md hidden font-libre lg:block text-white   mb-8">
+                  <p className="text-lg hidden lg:px-24 font-libre lg:block text-white   mb-8">
                     Are you tried of wearing generic, mass-produced shirts that
                     lack personality? Its time to take control of your style and
                     embrace individually with our custom shirt printing

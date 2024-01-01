@@ -77,7 +77,7 @@ const Banner = () => {
           </p>
           <p className="mt-2 text-[.6rem] leading-2 md:text-[.7rem] font-libre md:leading-5 font-normal text-black">
             Looking for quality apparel but donit need a large bulk order? Our
-            minimum is only 20 units.
+            minimum is only 24 units.
           </p>
         </div>
         <div className="p-4 md:p-10 flex flex-col items-center text-center group     hover:bg-slate-50 cursor-pointer">

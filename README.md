@@ -30,7 +30,7 @@ Product Design Mobile & WEb Inline Components
 
 # dbanner make it small --------------
 
-# change tshirt pic check 3:46 & before
+# change tshirt pic check 3:46 & before ----------
 
 16/12/23
 
@@ -48,11 +48,42 @@ change banner images -- add scroll button slider
 add video on add-on page --
 Header --
 
+24/12/23
+--remove yellow part make slider with 4 banner images
+
+28/12/23
+
+- make pns height fullscreen ---
+- make banner full screen / or change ---
+- change review picture ---
+  -custom patches mai likha hua data custom printing mai ajaega --
+
+29/12/23
+
+# Contact Page
+
+-Design --- med screen remaining
+-Backend
+
+30/12/23
+
 # Set Home Page
 
-remove yellow part make slider with 4 banner images
+- remove typewriter & put some where in mid ---
+- increase size of slider ---
+- button & Colors Setting
+- Set Fade in
+- Add Payment logos
+
+* Screen Printing | Company | Home
 
 # Set google parameters + seo
+
+# Remvoe Errors
+
+# Remove Comments
+
+# Remove Extra Files Vids Imgs
 
 # Embroidery
 

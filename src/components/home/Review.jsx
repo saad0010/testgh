@@ -90,10 +90,10 @@ const Review = () => {
         </div>
         <div className="hidden md:block pt-10   pr-32 lg:pr-0">
           <Image
-            src="/rp.jpg"
+            src="/Review.jpg"
             alt="review"
-            width={300}
-            height={300}
+            width={900}
+            height={900}
             className="sm:w-9/12 md:w-10/12 lg:w-10/12  h-5/6   object-cover"
           />
         </div>

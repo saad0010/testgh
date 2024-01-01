@@ -43,14 +43,7 @@ const Banner = (props) => {
         <div className="mt-20">
           {/* h-96 to clear view */}
           <div className=" bg-slate-400">
-            <video
-              autoPlay
-              loop
-              muted
-              playsInline
-              controls
-              className="w-full h-full"
-            >
+            <video autoPlay loop muted playsInline className="w-full h-full">
               <source src={video} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
