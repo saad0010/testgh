@@ -92,9 +92,6 @@ export default function Home() {
 
       <NCard
         title={"Don't settle for custom shirts no one will wear."}
-        // image={
-        //   "https://assets-global.website-files.com/5ccc8aa73871f9d0b1c81c04/5fe48b5fc345308256f5f2bc_how%20it%20works-min-v2.jpg"
-        // }
         image={"/nc.jpg"}
         p1={
           "Tees Weather's library of soft custom shirts, unique print options, and simple order process make it easier than ever to order shirts you'll love and wear proudly."
@@ -110,9 +107,6 @@ export default function Home() {
       </div>
       <NewCard
         title={"Don't settle for  Patches."}
-        // image={
-        //   "https://assets-global.website-files.com/5ccc8aa73871f9d12dc81c1b/634573428c3b89cbb65b41f2_custom-tag-printing-2-p-800.jpg"
-        // }
         image={"/a1.jpg"}
         p1={
           "Tees Weather's library of soft custom shirts, unique print options, and simple order process make it easier than ever to order shirts you'll love and wear proudly."
@@ -122,7 +116,7 @@ export default function Home() {
         }
       />
 
-      <div className="md:pt-20 md:pb-20">
+      <div className="md:pt-10 md:pb-20">
         <SecHero
           heading="Your products—processed, packed and delivered worldwide by Tees Weather"
           description="Print-on-demand eliminates upfront costs and leftover stock by fulfilling products only when your customer places an order. No upfront fees. No minimums. Just effortless fulfillment.  "
@@ -130,10 +124,6 @@ export default function Home() {
         />
         <Slider1 />
       </div>
-      {/* <div className="h-px flex-auto mx-20 mt-20  bg-black" /> */}
-      {/* <Clients /> */}
-
-      {/* <div className="h-px flex-auto mx-20  bg-black" /> */}
     </main>
   );
 }

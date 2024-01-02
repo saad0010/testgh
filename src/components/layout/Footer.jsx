@@ -31,8 +31,13 @@ const Footer = () => {
           <h3 className="text-lg md:text-4xl mt-3 font-mirza text-slate-700 font-semibold">
             Ready to raise your t-shirt game ?
           </h3>
-          <Link href={"/contact"}>
-            <button className="w-66 rounded-md mt-6  p-2 font-libre text-[.5rem] md:p-3 font-semibold text-white md:text-xs  bg-black hover:bg-slate-500 hover:text-black">
+          {/* <Link href={"/contact"}>
+            <button className="w-66 rounded-md mt-6  p-2 font-libre text-[.5rem] md:p-3 font-semibold text-white md:text-xs  bg-midnigh hover:bg-slate-500 hover:text-black">
+              BEGIN YOUR ORDER
+            </button>
+          </Link> */}
+          <Link href={"/contact"} className="ml-10 ">
+            <button className="pt-2 px-3 h-10 mr-10  mt-4 text-[1rem] font-mirza bg-midnigh   text-white uppercase rounded hover:bg-black hover:text-white duration-300 tracking-wide">
               BEGIN YOUR ORDER
             </button>
           </Link>
@@ -169,31 +174,35 @@ const Footer = () => {
               <div className="flex py-10 gap-3 justify-center md:justify-start items-center">
                 <Image
                   src={"/visa.png"}
-                  alt="btc"
+                  alt="visa"
                   className="bg-white  w-12 md:w-14"
                   width={100}
                   height={100}
+                  priority
                 />
                 <Image
                   src={"/master.png"}
-                  alt="btc"
+                  alt="master-card"
                   className="bg-white  w-12 md:w-14"
                   width={100}
                   height={100}
+                  priority
                 />
                 <Image
                   src={"/ax.webp"}
-                  alt="paypal"
+                  alt="american-express"
                   width={100}
                   height={100}
                   className=" w-[2.7rem] md:w-[3rem]"
+                  priority
                 />
                 <Image
                   src={"/pp.png"}
-                  alt="btc"
+                  alt="paypal"
                   className="bg-white  w-12 md:w-14"
                   width={100}
                   height={100}
+                  priority
                 />
                 <Image
                   src={"/btc.png"}
@@ -201,10 +210,37 @@ const Footer = () => {
                   className="bg-white rounded-full  w-8 md:w-9"
                   width={100}
                   height={100}
+                  priority
                 />
               </div>
             </div>
-            <div className="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 text-center lg:grid-cols-4 ">
+            <div className="grid grid-cols-2 gap-8 lg:col-span-2 sm:grid-cols-2 text-center lg:grid-cols-4 ">
+              <div>
+                <p className="text-md text-yellow-500">Services</p>
+                <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
+                  {services.map((item) => (
+                    <Link key={item._id} href={`/services/${item.slug}`}>
+                      <span className="hover:opacity-75 font-mirza text-lg">
+                        {" "}
+                        {item.title}{" "}
+                      </span>
+                    </Link>
+                  ))}
+                </nav>
+              </div>
+              <div>
+                <p className="text-md text-yellow-500">Products</p>
+                <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
+                  {cat.map((item) => (
+                    <Link key={item._id} href={`/products?${item.slug}`}>
+                      <span className="hover:opacity-75 font-mirza text-lg">
+                        {" "}
+                        {item.title}{" "}
+                      </span>
+                    </Link>
+                  ))}
+                </nav>
+              </div>
               <div className="">
                 <p className="text-md text-yellow-500 ">Company</p>
                 <nav className="flex flex-col mt-4 space-y-2 text-sm  text-white">
@@ -240,32 +276,6 @@ const Footer = () => {
                       Blogs{" "}
                     </span>
                   </Link>
-                </nav>
-              </div>
-              <div>
-                <p className="text-md text-yellow-500">Services</p>
-                <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
-                  {services.map((item) => (
-                    <Link key={item._id} href={`/services/${item.slug}`}>
-                      <span className="hover:opacity-75 font-mirza text-lg">
-                        {" "}
-                        {item.title}{" "}
-                      </span>
-                    </Link>
-                  ))}
-                </nav>
-              </div>
-              <div>
-                <p className="text-md text-yellow-500">Products</p>
-                <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
-                  {cat.map((item) => (
-                    <Link key={item._id} href={`/products?${item.slug}`}>
-                      <span className="hover:opacity-75 font-mirza text-lg">
-                        {" "}
-                        {item.title}{" "}
-                      </span>
-                    </Link>
-                  ))}
                 </nav>
               </div>
               <div>

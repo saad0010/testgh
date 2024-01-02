@@ -20,44 +20,30 @@ const Banner = () => {
             </video>
           </div>
           <section className="  py-2 md:py-7 flex  bg-transaprent">
-            {/* mx-auto max-w-[33rem] */}
-            {/* <div className=" mx-auto max-w-[33rem]">
-         
-        </div> */}
             <div className=" mx-2 w-6/12 md:mx-10 ">
               <div className="text-center ">
-                <p className="text-sm hidden font-libre lg:block lg:mt-20 md:text-xl font-medium  leading-8 text-white">
+                <p className="text-sm hidden font-libre lg:block lg:mt-32 md:text-xl font-bold  leading-8 text-white">
                   Tees Weather: the # 1 print-on-demand partner
                 </p>
-                <h1 className="mt-12 font-mirza sm:mt-20 md:mt-1 lg:mt-10 text-[1.2rem] sm:text-[2rem] md:text-[4.2rem] font-semibold leading-[1.5rem] sm:leading-[2.5rem] md:leading-[4rem] tracking-tight text-white">
+                <h1 className="mt-20 font-mirza lg:pt-[2.8rem] sm:mt-20 md:mt-1 lg:mt-0 text-[2rem] sm:text-[2rem] md:text-[4.2rem] font-semibold leading-[2rem] sm:leading-[2.5rem] md:leading-[4rem] tracking-tight text-white">
                   Custom <br /> Apparels & Patches
                 </h1>
-                <p className="mt-2 hidden font-libre lg:block md:mt-2 lg:mt-10 text-[.8rem] md:text-lg leading-relaxed text-white">
+                <p className="mt-2 hidden font-libre font-bold lg:block md:mt-2 lg:mt-10 text-[.8rem] md:text-lg leading-relaxed text-white lg:px-20">
                   Guaranted Accuracy , Quality and Delivery. Tees Weather makes
                   it easy to buy patches & apparels online.
                 </p>
-                <div className=" flex items-center justify-center gap-4 mt-5 mb-5">
+                <div className=" flex items-center justify-center gap-4  mb-5">
                   <Link
                     href={"/contact"}
-                    className="transform font-mirza rounded bg-yellow-400 hover:bg-black px-2 md:px-5 md:mt-5 py-1 md:pt-3  text-[.4rem] md:text-[1rem] font-[900]  text-black hover:text-white transition-colors "
+                    className="pt-4 pb-10 md:pb-0 md:pt-10"
                   >
-                    CONTACT A PRINTING PRO
+                    <button className="lg:mt-4 pt-[.4rem] px-2 md:px-3 h-6 md:h-7 md:mr-10 text-[.7rem] md:text-[1rem] font-mirza bg-btnyel   text-black uppercase rounded hover:bg-midnigh hover:text-white duration-300 tracking-wide">
+                      CONTACT A PRINTING PRO
+                    </button>
                   </Link>
                 </div>
               </div>
             </div>
-
-            {/* <div classname="flex items-end z-9 w-full bg-transparent  cursor-pointer">
-              <div classname="">
-                <Image
-                  classname=" cursor-pointer"
-                  alt="play"
-                  src="/play.png"
-                  width={25}
-                  height={25}
-                />
-              </div>
-            </div> */}
           </section>
         </div>
       </div>
@@ -70,6 +56,7 @@ const Banner = () => {
             width={100}
             height={100}
             alt="quality apparel"
+            priority
             className="object-cover w-8 h-8 md:w-16 md:h-16"
           />
           <p className=" text-sm md:text-[1.25rem] font-mirza font-light text-black mt-3">
@@ -85,6 +72,7 @@ const Banner = () => {
             src={"/s1.png"}
             width={100}
             height={100}
+            priority
             alt="products free shipping"
             className="object-cover w-8 h-8 md:w-16 md:h-16"
           />
@@ -101,6 +89,7 @@ const Banner = () => {
             src={"/s2.png"}
             width={100}
             height={100}
+            priority
             alt="guarantee"
             className="object-cover w-8 h-8 md:w-16 md:h-16"
           />
@@ -118,6 +107,7 @@ const Banner = () => {
             src={"/s3.png"}
             width={100}
             height={100}
+            priority
             alt="print quality"
             className="object-cover w-18 h-16 md:w-18 md:h-18"
           />

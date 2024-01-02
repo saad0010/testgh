@@ -71,11 +71,15 @@ Header --
 
 - remove typewriter & put some where in mid ---
 - increase size of slider ---
-- button & Colors Setting
 - Set Fade in
-- Add Payment logos
 
 * Screen Printing | Company | Home
+
+1/1/24
+
+- Home Page Set
+- button & Colors Setting ----
+- Add Payment logos
 
 # Set google parameters + seo
 

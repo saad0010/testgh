@@ -38,26 +38,23 @@ const Header = () => {
   }, [pathName]);
 
   return (
-    <div className=" w-full lg:h-20 h-24  border-gray-500 px-2 border-b-2 bg-white overflow-x-hidden">
+    <div className=" w-full lg:h-20 h-16  border-gray-500 px-2  bg-white overflow-x-hidden">
       <div className="h-full max-w-screen-2xl mx-auto flex items-center justify-between">
         <span
           onClick={() => setShowMenu(true)}
-          className="absolute left-6 top-4 text-2xl p-3 bg-black hidden lg:block rounded-full text-white hover:text-yellow-400 cursor-pointer duration-300"
+          className="absolute left-14   top-2.6 text-2xl p-4 bg-midnigh hover:bg-btnyel hover:text-black hidden lg:block rounded-full text-white  cursor-pointer duration-300"
         >
           <IoMenuOutline />
         </span>
         {/* Logo */}
         <Link
           href={"/"}
-          className="ml-4 lg:ml-28 mt-2 relative group overflow-hidden"
+          className="ml-4 lg:ml-40 relative group overflow-hidden"
         >
-          {/* <Image  src={logo}
-                  alt="logoImg" className="flex-1 h-20"
-                 /> */}
-          <p className="text-[1.8rem] md:text-3xl  font-semibold font-kalam uppercase text-black  group-hover:translate-x-0 transition-transform duration-700">
-            TEES WEATHER
+          <p className="text-[1.8rem] md:text-[2.7rem] lg:-mt-1 font-lobster hover:text-btnyel text-midnigh tracking-widest group-hover:translate-x-0 transition-transform duration-700">
+            Tees Weather
           </p>
-          <span className="absolute bottom-0 w-full h-[2px] inline-block bg-black -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-700"></span>
+          {/* <span className="absolute bottom-0 w-full h-[2px] inline-block bg-black -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-700"></span> */}
         </Link>
 
         {/* Logo */}
@@ -66,7 +63,7 @@ const Header = () => {
 
         <span
           onClick={() => setShowMenu(true)}
-          className="absolute right-6 top-5 text-2xl p-3 bg-black lg:hidden rounded-full text-white hover:text-yellow-400 cursor-pointer duration-300"
+          className="absolute right-6 top-2.5 text-xl p-3 bg-black lg:hidden rounded-full text-white hover:text-yellow-400 cursor-pointer duration-300"
         >
           <IoMenuOutline />
         </span>
@@ -436,32 +433,14 @@ const Header = () => {
           </div>
         )}
 
-        {/* Main Menu */}
-        {/* <div className="hidden lg:inline-flex items-center gap-8 text-sm uppercase font-semibold tracking-wide"> */}
-        {/* <ul className="flex gap-8 ">
-            {headerListItem.map((item) => (
-              <Link key={item._id} href={item.link}>
-                <li
-                  className={`${active === item.link && "text-black"}
-                   text-black cursor-pointer duration-300 mt-3 group relative text-xl font-mirza`}
-                >
-                  {item.title}
-                  <span
-                    className={`${
-                      active === item.link && "scale-100"
-                    } absolute w-full scale-0 group-hover:scale-100 inline-block h-[2px] -bottom-[1px] left-0 bg-black duration-500`}
-                  ></span>
-                </li>
-              </Link>
-            ))}
-          </ul> */}
-        <div className="hidden lg:inline-flex items-center gap-8 text-sm uppercase font-semibold tracking-wide">
+        <div className="hidden  lg:inline-flex items-center   gap-8 text-sm uppercase font-semibold tracking-wide">
           <Link href={"/contact"}>
-            <button className="pt-2 w-40 h-10 mr-10  text-lg font-mirza bg-yellow-400 italic  text-black uppercase rounded hover:bg-black hover:text-white duration-300 tracking-wide">
+            <button className="pt-2  w-auto px-6  h-12 mr-12  text-[1rem] font-mirza bg-btnyel   text-black uppercase rounded hover:bg-midnigh hover:text-white duration-300 tracking-wide">
               START A QUOTE +
             </button>
           </Link>
         </div>
+
         {/* </div> */}
       </div>
     </div>

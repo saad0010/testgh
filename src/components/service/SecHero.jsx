@@ -14,7 +14,7 @@ const SecHero = (props) => {
 
   return (
     <>
-      <div className="bg-transparent w-full  rounded-br-3xl px-4 relative">
+      <div className="bg-transparent w-full   px-4 relative">
         <Container>
           <div className="text-black grid md:grid-cols-2 gap-4 place-items-center">
             {/* left */}
@@ -24,7 +24,7 @@ const SecHero = (props) => {
                 animate={{ x: 0 }}
                 transition={{ duration: 1 }}
               >
-                <Image
+                {/* <Image
                   src={image}
                   alt="bannerImg"
                   // Make the image display full width
@@ -32,33 +32,43 @@ const SecHero = (props) => {
                   height={500}
                   priority
                   className="w-100  object-cover "
+                /> */}
+                <Image
+                  src={"/1.jpg"}
+                  alt="package"
+                  priority
+                  width={400}
+                  height={400}
+                  className="w-[35rem] object-fill"
                 />
               </motion.div>
             </div>
             {/* Right */}
             <div className="flex flex-col gap-4 md:gap-6 xl:gap-10">
               <FadeIn>
-                <h1 className="text-lg md:text-2xl lg:text-3xl xl:text-3xl font-mirza font-semibold">
+                <h1 className="text-lg md:text-2xl lg:text-3xl xl:text-5xl font-mirza lg:pr-24 text-bold">
                   {heading}
                 </h1>
               </FadeIn>
               <FadeIn>
-                <p className=" text-sm md:text-lg font-libre tracking-wide">
+                <p className=" text-sm md:text-lg lg:pr-20 font-libre tracking-wide">
                   {description}
                 </p>
               </FadeIn>
               <FadeIn>
-                <div className="w-full p-4 xl:p-6 bg-white text-sm rounded-3xl font-libre flex flex-col lg:flex-row text-black justify-between gap-5">
-                  {/* <Link
-                    // className="w-full h-12 justify-center  rounded-xl   bg-black text-white uppercase font-medium hover:bg-green-950 cursor-pointer duration-300"
-                    href={"/contact"}
-                  >
-                    <h3 className="items-center"> WORK WITH US</h3>
-                  </Link> */}
-                  <Link href={"/contact"} className="w-full text-right">
+                <div className="w-full p-4 xl:p-6 bg-white text-sm rounded-3xl flex flex-col lg:flex-row justify-between gap-5">
+                  {/* <Link href={"/contact"} className="w-full text-right">
                     {" "}
-                    <button className="w-28 px-1 text-[.7rem]   h-8 rounded-md bg-black text-white uppercase font-medium hover:bg-yellow-400 hover:text-black cursor-pointer duration-300">
+                    <button className="w-28 px-1 text-[.7rem]   h-8 rounded-md bg-midnigh text-white uppercase font-medium hover:bg-yellow-400 hover:text-black cursor-pointer duration-300">
                       WORK WITH US
+                    </button>
+                  </Link> */}
+                  <Link
+                    href={"/screen-printing"}
+                    className="w-full text-right lg:pr-10"
+                  >
+                    <button className="pt-2 px-3 h-10 mr-10   text-[1rem] font-mirza bg-midnigh   text-white uppercase rounded hover:bg-btnyel hover:text-black duration-300 tracking-wide">
+                      CONTACT US
                     </button>
                   </Link>
                 </div>

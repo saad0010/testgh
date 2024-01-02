@@ -43,7 +43,7 @@ const Services = () => {
             </h1>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 px-8 pb-10 md:pb-0">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 px-8 pb-10 md:pb-8">
             {data.map((item) => (
               <div key={item.id}>
                 <Link href={`/services/${item.slug}`}>
